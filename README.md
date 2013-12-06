@@ -3,6 +3,9 @@ farsi-flash-cards
 
 A FirefoxOS app to present flashcards for Farsi -> English and English -> Farsi translations
 
+Tap once to get a 'Question' card, which will be in either Farsi, Phoenetic Farsi or English.
+
+Tap again to get an 'Answer' card, which will have all three versions.
 
 ## Screenshots
 
