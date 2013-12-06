@@ -1,0 +1,15 @@
+{
+  "name": "Flash Cards",
+  "description": "",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/img/icon-60.png",
+    "128": "/img/icon-128.jpg"
+  },
+  "developer": {
+    "name": "Thom Shutt",
+    "url": "http://www.thomshutt.com"
+  },
+  "orientation": ["landscape"],
+  "default_locale": "en"
+}
