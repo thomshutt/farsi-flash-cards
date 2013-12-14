@@ -1,0 +1,3 @@
+PACKAGED_FILE=farsi-flash-cards.zip
+zip -r $PACKAGED_FILE index.html manifest.webapp img/
+echo "Created $PACKAGED_FILE"
