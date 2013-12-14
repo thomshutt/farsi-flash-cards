@@ -1,5 +1,5 @@
 {
-  "name": "Flash Cards",
+  "name": "Farsi Flash Cards",
   "description": "A series of Flash Cards covering a wide range of basic vocab in Farsi. A 'Question' card will be shown in Farsi / Phoenetic Farsi / English which will reveal an 'Answer' card with all three on when tapped.",
   "launch_path": "/index.html",
   "icons": {
