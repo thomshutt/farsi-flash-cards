@@ -12,5 +12,6 @@
     "url": "http://www.thomshutt.com"
   },
   "orientation": ["landscape"],
-  "default_locale": "en"
+  "default_locale": "en",
+  "version": "1.1"
 }
