@@ -55,7 +55,7 @@
       STATE = 'QUESTION'; 
       CURRENT_CARD = Math.floor(Math.random() * CARDS.length);
       var startLanguage = Math.floor(Math.random() * CARDS[0].length);
-      $$('question1').innerHTML = CARDS[CURRENT_CARD][startLanguage]; 
+      $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
       $$('question').style.display = 'block'
       $$('answer').style.display = 'none'
       document.body.style.background = '#111111'
@@ -63,12 +63,29 @@
 
     var revealAnswer = function revealAnswer(){
       STATE = 'ANSWER'
-      $$('answer1').innerHTML = CARDS[CURRENT_CARD][0] + ' / '
-      $$('answer2').innerHTML = CARDS[CURRENT_CARD][1] + ' / '
-      $$('answer3').innerHTML = CARDS[CURRENT_CARD][2]
+      $$('answer1').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][0]) + ' / '
+      $$('answer2').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][1]) + ' / '
+      $$('answer3').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][2])
       $$('question').style.display = 'none'
       $$('answer').style.display = 'block'
       document.body.style.background = '#123424'
+    }
+
+    var getAllPossibleValues = function getAllPossibleValues(elementOrArray){
+      if (typeof elementOrArray === 'string') {
+        return elementOrArray;
+      } else {
+        return '[' + elementOrArray.join(' / ') + ' ]';
+      }
+    }
+
+    var getAnyPossibleValue = function getAnyPossibleValue(elementOrArray){
+      if (typeof elementOrArray === 'string') {
+        return elementOrArray;
+      } else {
+        var choice = Math.floor(Math.random() * elementOrArray.length);
+        return elementOrArray[choice];
+      }
     }
 
     var CARDS = [
@@ -111,7 +128,7 @@
       ['Company',        'Sherkat',        'شرکت'],
       ['Number',         'Shomare',        'شماره'],
       ['Room',           'Otaagh',         'اتاق'],
-      ['Story',          'Daastaan',       'داستان'],
+      ['Story',          ['Daastaan', 'Ghas-e?'],       ['داستان', 'قصه']],
       ['Fact',           'Vaaghayiat',     'واقعیت'],
       ['Job',            'Kaar',           'کار'],
       ['Shoe',           'Kafsh',          'کفش'],
@@ -134,7 +151,7 @@
       ['Short',          'Kootah',         'کوتاه'],
       ['Answer',         'Paasokh',        'پاسخ'],
       ['Learn',          'Yaadigiree',     'یادگیری'],
-      ['Long / High',    'Boland',         'بلند'],
+      [['Long', 'High', 'Loud'], 'Boland', 'بلند'],
       ['Low',            'Paeeeen',        'پایین'],
       ['Different',      'Mokhtalef',      'مختلف'],
       ['Next',           'Ba-d',           'بعد'],
@@ -271,9 +288,17 @@
       ['Pedestrian',     'Rahgozar',       'رهگذر'],
       ['Shadow',         'Saaye',          'سایه'],
       ['Moon',           'Maah',           'ماه'],
-      ['Loud',           'Boland',         'بلند'],
       ['Quiet',          'Saaket',         'ساکت'],
       ['Voice',          'Sedaa',          'صدا'],
+      ['Song',           '',          ''],
+      ['Need',           '',          ''],
+      ['Old',            'Pee-r',          'پیر'],
+      ['12',             'Davaazdeh',      'دوازده'],
+      ['Bright',         'Roshan',         'روشن'],
+      ['Grandchild',     'Navah?',         'نوه'],
+      ['Around',         'D-oo-r?',        'دور'],
+      ['[Him/Her]self',  'Khodesh?',       'خودش'],
+      ['Total',          'Jom-a?',         'جمع'],
       ['Energy',         'Enerzhee',       'انرژی']
 //      ['Lots of',        '',         ''],
     ];
