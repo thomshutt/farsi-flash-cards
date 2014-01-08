@@ -53,7 +53,7 @@
   
     var chooseCard = function chooseCard(){
       STATE = 'QUESTION'; 
-      CURRENT_CARD = Math.floor(Math.random() * CARDS.length);
+      CURRENT_CARD = getRandomCardIndex(); 
       var startLanguage = Math.floor(Math.random() * CARDS[0].length);
       $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
       $$('question').style.display = 'block'
@@ -87,6 +87,69 @@
         return elementOrArray[choice];
       }
     }
+
+    /*
+       Build a 'triangle' of elements based on a pre-determined granularity of weightedness, e.g granularity of 4 in the following triangle:
+
+                *
+               * *
+              * * *
+             * * * *
+
+       Split the flash card list into even sections based on the number of rows in the triangle.
+
+       Select a node from the triangle at random. The row number of the node corresponds to
+       the section of the card list we're going to look at.
+
+       Select a card at random from that section of the card list.
+    */
+    var getRandomCardIndex = function getRandomCardIndex(){
+      var triangularTotal = function triangular(n){
+        return n * (n + 1) / 2;
+      };
+      var calculateTriangleRow = function calculateTriangleRow(elementNumber){
+        var currentRow = 1;
+        var currentTotal = 0;
+        while(currentTotal < elementNumber){
+          currentTotal += currentRow;
+          currentRow++;
+        }
+        return currentRow - 1;
+      };
+      var degreesOfRandomness = 5;
+      var triangleTotal = triangularTotal(degreesOfRandomness);
+      var sectionSize = Math.floor(CARDS.length / degreesOfRandomness);
+
+      var chosenTriangleElement = Math.floor(Math.random() * triangleTotal);
+      var chosenSegment = calculateTriangleRow(chosenTriangleElement) - 1;
+
+      var actualSectionSize = (chosenSegment != degreesOfRandomness - 1) ? sectionSize : CARDS.length - (chosenSegment * sectionSize);
+
+      return (chosenSegment * sectionSize) + Math.floor(Math.random() * actualSectionSize);
+      // Simple, non-weighted method:
+      // return Math.floor(Math.random() * CARDS.length);
+    }
+
+    /* ----------- UNIT TESTS  ----------- */ 
+
+       var itShouldSelectEveryValueEventually = function itShouldSelectEveryValueEventually() {
+         var allOptions = [];
+         for(var x = 0; x < CARDS.length; x++){ allOptions.push(0); }
+         
+         for(var i = 0; i < 1000000; i++){ 
+           allOptions[getRandomCardIndex()] += 1; 
+         }
+
+         var missedIndices = [];
+         for(var i = 0; i < allOptions.length; i++){ 
+           if(allOptions[i] == 0){ missedIndices.push(i); } 
+         }
+         alert(missedIndices.length + " missed cards out of " + allOptions.length);
+         console.log(missedIndices);
+         console.log(allOptions);
+       }
+
+    /* ----------------------------------- */ 
 
     var CARDS = [
       ['Fart',           'Gooz',           'گوز'],
@@ -313,6 +376,7 @@
       ['Slow',           'Kond',           'کند'],
       ['Foreigner',      'Khaarejee',      'خارجی'],
       ['Word',           'Kalameh',        'کلمه'],
+      ['Brave',          'Shojaa',         'شجاع'],
 //      ['',           '',          ''],
 //      ['Angry',          'Asabaanee',      ''],
       ['Energy',         'Enerzhee',       'انرژی']
