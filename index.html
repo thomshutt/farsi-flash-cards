@@ -116,7 +116,7 @@
         }
         return currentRow - 1;
       };
-      var degreesOfRandomness = 5;
+      var degreesOfRandomness = 15;
       var triangleTotal = triangularTotal(degreesOfRandomness);
       var sectionSize = Math.floor(CARDS.length / degreesOfRandomness);
 
@@ -334,7 +334,7 @@
       ['Line',           'Khat',           'خط'],
       ['Before',         'Peesh Az',       'پیش از'],
       ['To Arrive',      'Reseedan',       'رسیدن'],
-      ['Step',           'Ghadam',         'قدم'],
+      ['Step',           ['Ghadam', 'Gaam'],         ['قدم', 'گام']],
       ['A Screw',        'Peech',          'پیچ'],
       ['Hopeless',       'Naa-omeed',      'ناامید'],
       ['Patience',       'Sabr',           'صبر'],
@@ -344,6 +344,7 @@
       ['Start',          'Shoroo',         'شروع'],
       ['Overflowing',    'Labreez',        'لبریز'],
       ['Dust',           'Ghobar',         'غبار'],
+      ['Energy',         'Enerzhee',       'انرژی'],
       ['Silence',        'Sokoot',         'سکوت'],
       ['Noisy Chaos',    'Hayaahoo',       'هیاهو'],
       ['Daily',          'Roozaane',       'روزانه'],
@@ -366,7 +367,7 @@
       ['Stone',          'S-ang',          'سنگ'],
       ['Wall',           'Diivaar',        'دیوار'],
       ['Flowing',        'Ravaan',         'روان'],
-      ['Back (Behind)',  'Posht',          'پشت'],
+      ['Back (Behind)',  ['Posht', 'Aghab'], ['پشت', 'عقب']],
       ['Moss',           'Khaze',          'خزه'],
       ['Wallet / Purse', 'Keef-e Pool',    'کیف پول'],
       ['Handbag',        'Keef-e Dastee',  'کیف دستی'],
@@ -377,10 +378,53 @@
       ['Foreigner',      'Khaarejee',      'خارجی'],
       ['Word',           'Kalameh',        'کلمه'],
       ['Brave',          'Shojaa',         'شجاع'],
-//      ['',           '',          ''],
-//      ['Angry',          'Asabaanee',      ''],
-      ['Energy',         'Enerzhee',       'انرژی']
-//      ['Lots of',        '',         ''],
+      ['Regret',         'Maandeh',        'مانده'],
+      ['Happened',       'Shodeh',         'شده'],
+      ['Moonlight',      'Mahtaab',        'مهتاب'],
+      ['Their',          'Shaan',          'شان'],
+      ['Fell',           'Aaftaad',        'افتاد'],
+      ['Mixed',          'Ghaatee',        'قاتی'],
+      ['Other',          'Digar',          'دیگر'],
+      ['Put',            'Gozaasht',       'گذاشت'],
+      ['Reluctance',     'Bee Maylee',     'بی میلی'],
+      ['Side',           'Taraf',          'طرف'],
+      ['Returned',       'Barmeegasht',    'برمیگشت'],
+      ['Time',           'Vaght',          'وقت'],
+      ['Imagination',    'Kheeaal',        'خیال'],
+      ['Testicle',       'Bayz-e',         'بیضه'],
+      ['Busy',           'Mashghool',      'مشغول'],
+      ['Make',           'Dorost Kardan',  'درست کردن'],
+      ['Thick',          'Koloft',         'کلفت'],
+      ['Branch',         'Shakhe',         'شاخه'],
+      ['Ear',            'Goosh',          'گوش'],
+      ['Repeat',         'Tekraar',        'تکرار'],
+      ['Pimp',           'Jaakesh',        'جاکش'],
+      ['Level',          'Tabaghe',        'طبقه'],
+      ['Box',            'Ja\'beh',        'جعبه'],
+      ['To (Give) Promise', 'Ghol Daadan', 'قول دادن'],
+      ['Circumcision',   'Khatne',         'ختنه'],
+      ['Accident',       'Tasaadof',       'تصادف'],
+      ['To Wake Up',     'Beedaar Kard',   'بیدار کرد'],
+      ['Polluted',       'Alood-e',        'آلود'],
+      ['Sleepy',         'Khaab Alood-e',  'خواب الود'],
+      ['Now',            'Haalaa',         'حالا'],
+      ['Skin',           'Poost',          'پوست'],
+      ['Forest',         'Jangal',         'جنگل'],
+      ['Interesting',    'Jaaleb',         'جالب'],
+      ['Potato',         'Seeb Zameenee',  'سیب زمینی'],
+      ['Earth',          'Zameen',         'زمین'],
+      ['Onion',          'Peeaaz',         'پیاز'],
+      ['Pomegranate',    'Anaar',          'انار'],
+      [['Spicy', 'Fast'], 'Tond',          'تند'],
+      ['Reading',        'Khaandan',       'خواندن'],
+      ['Circle',         'Daayere',        'دایره'],
+      ['Square',         'Moraba-h',       'مربع'],
+      ['Kick',           'Paazadan',       'پا زدن'],
+      ['To Travel',      'Safar Kardan',   'سفر کردن'],
+      ['Tower',          'Borj',           'برج'],
+      ['Perfume',        'Atr',            'عطر'],
+      ['Suitcase',       'Chamadaan',      'چمدان'],
+      ['Shelf',          'Taaghcheh',       'تاقچه']
     ];
 
     var checkLoad = function() {   
