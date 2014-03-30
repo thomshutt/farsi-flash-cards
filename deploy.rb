@@ -13,7 +13,7 @@
     f.write("https://#{ENV['GH_TOKEN']}:@github.com")
   end
   system "git checkout gh-pages"
-  system "git rebase master"
+  system "git merge master"
   system "git push origin gh-pages"
   system "git checkout master"
   File.delete '.git/credentials'
