@@ -1,0 +1,6 @@
+profiles:
+  production:
+    base_url: http://thomshutt.github.io/farsi-flash-cards
+    deploy:
+      host: github_pages
+      branch: gh-pages
