@@ -2,7 +2,7 @@
   if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
     puts 'Pull request detected. Executing build only.'
     system 'bundle exec awestruct -P production -g'
-    next
+    return 
   end
 
   repo = %x(git config remote.origin.url).gsub(/^git:/, 'https:')
