@@ -12,6 +12,8 @@
   File.open('.git/credentials', 'w') do |f|
     f.write("https://#{ENV['GH_TOKEN']}:@github.com")
   end
-  system "git branch #{deploy_branch} origin/#{deploy_branch}" 
-  system "git push origin #{deploy_branch}"
+  system "git checkout gh-pages"
+  system "git rebase master"
+  system "git push origin gh-pages"
+  system "git checkout master"
   File.delete '.git/credentials'
