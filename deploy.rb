@@ -19,6 +19,6 @@
   File.open('.git/credentials', 'w') do |f|
     f.write("https://#{ENV['GH_TOKEN']}:@github.com")
   end
-  system "git branch #{deploy_branch} origin/#{deploy_branch}"
-  system 'bundle exec awestruct -P production -g --deploy'
+  system "git branch #{deploy_branch} origin/#{deploy_branch}" 
+  system "git push origin #{deploy_branch}"
   File.delete '.git/credentials'
