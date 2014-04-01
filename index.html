@@ -54,11 +54,16 @@
     var chooseCard = function chooseCard(){
       STATE = 'QUESTION'; 
       CURRENT_CARD = getRandomCardIndex(); 
-      var startLanguage = Math.floor(Math.random() * CARDS[0].length);
+      var startLanguage = chooseStartLanguage();
       $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
       $$('question').style.display = 'block'
       $$('answer').style.display = 'none'
       document.body.style.background = '#111111'
+    }
+
+    var chooseStartLanguage(){
+       var possibleLanguages = [0, 1, 2, 2];
+       return possibleLanguages[Math.floor(Math.random() * possibleLanguages.length)];
     }
 
     var revealAnswer = function revealAnswer(){
