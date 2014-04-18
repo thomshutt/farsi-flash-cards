@@ -121,7 +121,7 @@
         }
         return currentRow - 1;
       };
-      var degreesOfRandomness = 35;
+      var degreesOfRandomness = CARDS.length / 10;
       var triangleTotal = triangularTotal(degreesOfRandomness);
       var sectionSize = Math.floor(CARDS.length / degreesOfRandomness);
 
@@ -591,6 +591,7 @@
       ['Cabbage',                     'Kalam',                     'کلم'],
       ['Wow!',                        'Bah bah!',                  'به به'],
       ['Almond',                      'Baadaam',                   'بادام'],
+      ['Real',                        'Vaagh-e-ee',                'واقعی'],
     ];
 
     var checkLoad = function() {   
