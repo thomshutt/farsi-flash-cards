@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p>Farsi Flash Cards Installation Page</p>
+    <script>
+      // This URL must be a full url.
+      var manifestUrl = 'http://thomshutt.github.io/farsi-flash-cards/manifest.webapp';
+      var req = navigator.mozApps.installPackage(manifestUrl);
+      req.onsuccess = function() {
+        alert(this.result.origin);
+      };
+      req.onerror = function() {
+        alert(this.error.name);
+      };
+    </script>
+  </body>
+</html>
