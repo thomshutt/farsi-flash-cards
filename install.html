@@ -6,10 +6,10 @@
       var manifestUrl = 'http://thomshutt.github.io/farsi-flash-cards/manifest.webapp';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
-        alert(this.result.origin);
+        alert("App Installed!");
       };
       req.onerror = function() {
-        alert(this.error.name);
+        alert("Whoops, something went wrong!");
       };
     </script>
   </body>
