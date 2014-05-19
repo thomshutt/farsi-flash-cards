@@ -11,7 +11,7 @@
       };
       req.onerror = function() {
         var node = document.getElementById('error_msg');
-        node.innerHTML("Error: " + this.error.name);
+        node.innerHTML = "Error: " + this.error.name;
         alert("Whoops, something went wrong!");
       };
     </script>
