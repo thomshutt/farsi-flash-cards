@@ -14,8 +14,9 @@
   end
   system "./build"
   system "git add -f farsi-flash-cards.zip"
-  system "git checkout gh-pages"
   system "git commit -m \"Added latest packaged version\""
+  system "git push origin master"
+  system "git checkout gh-pages"
   system "git merge master -m 'Updating Github Pages branch'"
   system "git push origin gh-pages"
   system "git checkout master"
