@@ -12,10 +12,11 @@
   File.open('.git/credentials', 'w') do |f|
     f.write("https://#{ENV['GH_TOKEN']}:@github.com")
   end
-  system "git checkout gh-pages"
   system "./build"
   system "git add -f farsi-flash-cards.zip"
   system "git commit -m \"Added latest packaged version\""
+  system "git push origin master"
+  system "git checkout gh-pages"
   system "git merge master -m 'Updating Github Pages branch'"
   system "git push origin gh-pages"
   system "git checkout master"
