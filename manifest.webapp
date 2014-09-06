@@ -13,5 +13,6 @@
   },
   "orientation": ["landscape"],
   "default_locale": "en",
-  "version": "1.3"
+  "version": "1.5",
+  "package_path" : "http://thomshutt.github.io/farsi-flash-cards/farsi-flash-cards.zip"
 }

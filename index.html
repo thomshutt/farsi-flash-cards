@@ -54,11 +54,16 @@
     var chooseCard = function chooseCard(){
       STATE = 'QUESTION'; 
       CURRENT_CARD = getRandomCardIndex(); 
-      var startLanguage = Math.floor(Math.random() * CARDS[0].length);
+      var startLanguage = chooseStartLanguage();
       $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
       $$('question').style.display = 'block'
       $$('answer').style.display = 'none'
       document.body.style.background = '#111111'
+    }
+
+    var chooseStartLanguage = function chooseStartLanguage(){
+       var possibleLanguages = [0, 1, 2, 2, 2];
+       return possibleLanguages[Math.floor(Math.random() * possibleLanguages.length)];
     }
 
     var revealAnswer = function revealAnswer(){
@@ -88,47 +93,25 @@
       }
     }
 
-    /*
-       Build a 'triangle' of elements based on a pre-determined granularity of weightedness, e.g granularity of 4 in the following triangle:
+    var populateRandomDistribution = function populateRandomDistribution() {
+      var returnVal = [];
 
-                *
-               * *
-              * * *
-             * * * *
-
-       Split the flash card list into even sections based on the number of rows in the triangle.
-
-       Select a node from the triangle at random. The row number of the node corresponds to
-       the section of the card list we're going to look at.
-
-       Select a card at random from that section of the card list.
-    */
-    var getRandomCardIndex = function getRandomCardIndex(){
-      var triangularTotal = function triangular(n){
-        return n * (n + 1) / 2;
-      };
-      var calculateTriangleRow = function calculateTriangleRow(elementNumber){
-        var currentRow = 1;
-        var currentTotal = 0;
-        while(currentTotal < elementNumber){
-          currentTotal += currentRow;
-          currentRow++;
+      var numEntries = 1;
+      for(var currentCardIndex = 0; currentCardIndex < CARDS.length; currentCardIndex++) {
+        if(currentCardIndex % 10 == 0) {
+          numEntries++;
         }
-        return currentRow - 1;
-      };
-      var degreesOfRandomness = 25;
-      var triangleTotal = triangularTotal(degreesOfRandomness);
-      var sectionSize = Math.floor(CARDS.length / degreesOfRandomness);
+        for(var entryNum = 0; entryNum < numEntries; entryNum++) {
+          returnVal.push(currentCardIndex);
+        }
+      }
 
-      var chosenTriangleElement = Math.floor(Math.random() * triangleTotal);
-      var chosenSegment = calculateTriangleRow(chosenTriangleElement) - 1;
+      return returnVal;
+    }; 
 
-      var actualSectionSize = (chosenSegment != degreesOfRandomness - 1) ? sectionSize : CARDS.length - (chosenSegment * sectionSize);
-
-      return (chosenSegment * sectionSize) + Math.floor(Math.random() * actualSectionSize);
-      // Simple, non-weighted method:
-      // return Math.floor(Math.random() * CARDS.length);
-    }
+    var getRandomCardIndex = function getRandomCardIndex() {
+       return randomDistribution[Math.floor(Math.random() * randomDistribution.length)];
+    };
 
     /* ----------- UNIT TESTS  ----------- */ 
 
@@ -207,11 +190,10 @@
       ['First',          'Aval',           'اول'],
       ['Last',           'Akhar',          'آخر'],
       ['Old (Thing)',    'Ghadeemee',      'قدیمی'],
-      ['Right',          'Dorost',         'درست'],
+      ['Correct',        'Dorost',         'درست'],
       ['Big',            'Bozorg',         'بزرگ'],
       ['Tall',           'Ghadboland',     'قد بلند'],
       ['Short',          'Kootah',         'کوتاه'],
-      ['Answer',         'Paasokh',        'پاسخ'],
       ['Learn',          'Yaadgiree',     'یادگیری'],
       [['Long', 'High', 'Loud'], 'Boland', 'بلند'],
       ['Low',            'Paeeeen',        'پایین'],
@@ -296,12 +278,10 @@
       ['Summer',         'Taabestaan',     'تابستان'],
       ['Autumn',         'Paaeeeez',       'پاییز'],
       ['Winter',         'Zamestaan',      'زمستان'],
-      ['Sun',            'Aaftaab',        'افتاب'],
       ['Wedding',        'Aroosee',        'عروسی'],
       ['Poet',           'Shaaer',         'شاعر'],
       ['Poem',           'Shehr',          'شعر'],
       ['Healthy',        'Saalem',         'سالم'],
-      ['Student',        'Daaneshjoo',     'دانشجو'],
       ['Sad',            'Ghamgeen',       'غمگین'],
       ['Tight',          'Tang',           'تنگ'],
       ['Loose',          'Shol',           'شل'],
@@ -372,11 +352,9 @@
       ['Fist',           'Mosht',          'مشت'],
       ['Soldier',        'Sarbaaz',        'سرباز'],
       ['Crazy',          'Deevaaneh',      'دیوانه'],
-      ['Slow',           'Kond',           'کند'],
       ['Foreigner',      'Khaarejee',      'خارجی'],
       ['Word',           'Kalameh',        'کلمه'],
       ['Brave',          'Shojaa',         'شجاع'],
-      ['Regret',         'Maandeh',        'مانده'],
       ['Happened',       'Shodeh',         'شده'],
       ['Moonlight',      'Mahtaab',        'مهتاب'],
       ['Their',          'Shaan',          'شان'],
@@ -427,7 +405,6 @@
       ['Drunk',          'M-ast',          'مست'],
       ['Yet',            'Hanooz',         'هنوز'],
       ['Dark (Colour)',  'Teereh',         'تیره'],
-      ['Shoulder',       'Shaaneh',        'شانه'],
       ['Rhino',          'Kargadan',       'کرگدن'],
       ['Stop!',          'Eest',           'ایست'],
       ['Sew your lips',  'Lab dooz',       'لب دوز'],
@@ -471,18 +448,17 @@
       ['Piece',          'Tekeh',          'تکه'],
       ['Finished',       'Tamaam Shod',    'تمام شد'],
       ['North',          'Shomaal',        'شمال'],
-      ['South',          'Jonoob',         'جنوب'],
-      ['East',           'Shargh',         'شرق'],
-      ['West',           'Gharb',          'غرب'],
-      ['Butter',         'Kareh',          'کره'],
-      ['Pair',           'Joft',           'جفت'],
-      ['Bench',          'Neemkat',        'نیمکت'],
-      ['Park',           'Paark',          'پارک'],
-      ['Underwear',      'Lebaas-e Ziir',  'لباس زیر'],
-      ['Library',        'Ketaabkhaane',   'کتابخانه'],
-      ['Umbrella',       'Chatr',          'چتر'],
+      ['South',                       'Jonoob',                    'جنوب'],
+      ['East',                        'Shargh',                    'شرق'],
+      ['West',                        'Gharb',                     'غرب'],
+      ['Butter',                      'Kareh',                     'کره'],
+      ['Pair',                        'Joft',                      'جفت'],
+      ['Bench',                       'Neemkat',                   'نیمکت'],
+      ['Park',                        'Paark',                     'پارک'],
+      ['Underwear',                   'Lebaas-e Ziir',             'لباس زیر'],
+      ['Library',                     'Ketaabkhaane',              'کتابخانه'],
+      ['Umbrella',                    'Chatr',                     'چتر'],
       ['Hundred',                     'Sa-d',                      'صد'],
-      ['Half',                        'Neem',                      'نیم'],
       ['Jealous',                     'Hasood',                    'حسود'],
       ['Regret',                      'Hasrat',                    'حسرت'],
       ['One Time',                    'Yek Daf\'eh',               'یک دفعه'],
@@ -512,8 +488,8 @@
       ['They Give',                   'Bedahand',                  'بدهند'],
       ['To Teach',                    'Yaad Daadan',               'یاد دادن'],
       ['Sometimes',                   'Gaahee',                    'گاهی'],
-      ['This Alone',                  'Tanhaa Hameen',             'تنها همین'],
       ['(I) Get Going',               'Rah Beoftam',               'راه بیفتم'],
+      ['Shelf',                       'Taaghcheh',                 'تاقچه'],
       ['Turned Out Well',             'Khoob Daraamadeh',          'خوب درآمده'],
       ['In a nonsensical fashion',    'Beekhodee',                 'بیخودی'],
       ['For Example',                 'Masalan',                   'مثلا'],
@@ -526,14 +502,247 @@
       ['Wicked',                      'Badjens',                   'بدجنس'],
       ['In this way',                 'Eentoori',                  'اینطوری'],
       ['Tomato',                      'Gojeh Farangi',             'گوجه فرنگی'],
-      ['Pain',                        'Dard',                      'درد'],
       ['Childhood',                   ['Koodaki', 'Bacchegi'],     ['کودکی', 'بچگی']],
       ['Noisy Chaos',                 ['Hayaahoo', 'Harj o Marj'], ['هیاهو', '']],
       ['Coin',                        'Sek-keh',                   'سکه'],
       ['Banknote',                    'Eskenaas',                  'اسکناس'],
-      ['Scissors',                    '',                  ''],
-      ['Shelf',                       'Taaghcheh',                 'تاقچه']
+      ['Student',                     ['Daaneshjoo', 'Shaagerd'],  ['دانشجو', 'شاگرد']],
+      ['Scissors',                    'Ghaychee',                  'قیچی'],
+      ['Wolf',                        'Gorg',                      'گرگ'],
+      ['Salary',                      'Hoghoogh',                  'حقوق'],
+      ['Lizard',                      'Maarmoolak',                'مارمولک'],
+      ['Bye (For Now)',               'Fehlan',                    ''],
+      ['Hope to see you again',       'Be Omide Didar',            'به امیده دیدار'],
+      ['Until Later',                 'Taa Ba-d',                  'تا بعد'],
+      ['Until Tomorrow',              'Taa Fardaa',                'تا فردا'],
+      ['Where are you from?',         'Taa Ahle Koja Hasti?',      'تو اهله کجا هستی؟'],
+      ['I Live In London',            'Man Dar Landan Zendegi Mikonam', 'من در لندن زندگی می کنم'],
+      ['Lawyer',                      'Vakeel',                    'وکیل'],
+      ['Architect',                   'Me-maar',                   'معمار'],
+      ['Author',                      'Neveesandeh',               'نویسنده'],
+      ['Office',                      'Edaareh',                   'اداره'],
+      ['Factory',                     'Karkhaane',                 'کارخانه'],
+      ['What\'s your job?',            'Che kar-e hasti?',          'چه کار هستی'],
+      ['Husband',                     'Shohar',                    'شوهر'],
+      ['Tray',                        'Seenee',                    'سینی'],
+      ['Valley',                      'Dareh',                     'دره'],
+      ['Bee',                         'Zanboor',                   'زنبور'],
+      ['Gift',                        ['Hedyeh', 'Kaado'],         ['هدیه', 'کادو']],
+      ['Vinegar',                     'Serkeh',                    'سرکه'],
+      ['Nonsense',                    'Mozakhraf',                 'مزخرف'],
+      [['Comb', 'Shoulder'],          'Shaaneh',                   'شانه'],
+      ['Toothbrush',                  'Mesvaak',                   'مسواک'],
+      ['Soap',                        'Saaboon',                   'صابون'],
+      ['Mosque',                      'Masjed',                    'مسجد'],
+      ['Headteacher',                 'Modeer',                    'مدیر'],
+      ['Pencil',                      'Madaad',                    'مداد'],
+      ['Flag',                        'Parcham',                   'پرچم'],
+      ['Suitable',                    'Monaaseb',                  'مناسب'],
+      ['Bakery',                      'Naanvaaee',                 'نانوایی'],
+      ['Retired',                     'Baazneshasteh',             'بازنشسته'],
+      ['Newsagent',                   'Rooznaameh Forooshee',      'روزنامه فروشی'],
+      ['To Sell',                     'Forookhtan',                'فروختن'],
+      ['Page',                        'Safeh',                     'صفحه'],
+      ['To Throw',                    'Andaakhtan',                'انداختن'],
+      [['Playground', 'Yard', 'Courtyard'], 'Hayaat',              'حیاط'],
+      ['To Clean',                    'Tameez Kardan',             'تمیز کردن'],
+      ['Board',                       'Takhteh',                   'تخته'],
+      ['Blackboard',                  'Takhteh Siaa',              'تخته سیاه'],
+      ['Nature',                      'Tabeeat',                   'طبیعت'],
+      ['Chocolate',                   'Shokolaat',                 'شکلات'],
+      ['Music',                       'Mooseghee',                 'موسیقی'],
+      ['Exercise',                    'Varzesh',                   'ورزش'],
+      ['Fiancé',                      'Naamzad',                   'نامزد'],
+      ['Cheap',                       'Aarzaan',                   'ارزان'],
+      ['Ant',                         'Moorcheh',                  'مورچه'],
+      ['Frying Pan',                  'Maahee Taabeh',             'iماهی تابه'],
+      ['Ladle',                       'Malaagheh',                 'ملاقه'],
+      ['Sofa',                        'Mobl',                      'مبل'],
+      ['Pencil',                      'Medaad',                    'مداد'],
+      ['Cabbage',                     'Kalam',                     'کلم'],
+      ['Wow!',                        'Bah bah!',                  'به به'],
+      ['Almond',                      'Baadaam',                   'بادام'],
+      ['Real',                        'Vaagh-e-ee',                'واقعی'],
+      ['Picture',                     'Tasveer',                   'تصویر'],
+      ['Animal',                      'Heyvaan',                   'حیوان'],
+      ['Without',                     'Beeaanke',                  'بی آنکه'],
+      ['Insect',                      'Saas',                      'ساس'],
+      ['Sam',                         'Poison',                    'سم'],
+      ['Bride',                       'Aroos',                     'عروس'],
+      ['Rooster',                     'Khoroos?',                  'خروس'],
+      [['(A) Groom', 'Son In Law?'],  'Daamaad',                   'داماد'],
+      ['Price',                       'Gheymat',                   'قیمت'],
+      ['Pencil Sharpener',            'Taraash',                   'تراش'],
+      ['Marble (Ball)',               'Teeleh',                    'تیله'],
+      ['(A) Swing',                   'Taab',                      'تاب'],
+      ['(A) Whistle',                 'Soot',                      'سوت'],
+      ['Sweat',                       'Aragh',                     'عرق'],
+      ['Iraq',                        'Araagh',                    'عراق'],
+      ['Strength',                    'Zoor',                      'زور'],
+      ['Template of Strength',        'Zoorkhaane',                'زورخانه'],
+      ['Upper Arm',                   'Baazoo',                    'بازو'],
+      ['Needle',                      'Soozan',                    'سوزن'],
+      ['To Sew',                      'Dooktan',                   'دوختن'],
+      ['She Sews',                    'Midoozad',                  'می دوزد'],
+      ['Skirt',                       'Daaman',                    'دامن'],
+      ['Knee',                        'Zaanoo',                    'زانو'],
+      ['Goose',                       'Ghaaz',                     'غاز'],
+      ['Tool',                        'Abzaar',                    'ابزار'],
+      ['Basement',                    'Ziirzameen',                'زیر زمین'],
+      ['Underground',                 'Ziir Zameen',               'زیر  زمین'],
+      ['(He) Makes',                  'Misaazad',                  'می سازد'],
+      ['To Make',                     'Saakhtan',                  'ساختمان'],
+      ['Toy',                         'Asbaab Baazi',              'اسباب بازی'],
+      ['Giraffe',                     'Zarraafe',                  'زرافه'],
+      ['How\'s It Going',             'Chetour Peesh Mir-e',       'چطور پیش میره'],
+      ['I\'m learning Farsi',         'Daaram Farsi Yaad Migiram', 'دارم فارسی یاد می گیرم'],
+      ['Kitchen',                     'Aashpazkhaaneh',            'اشپزخانه'],
+      ['Art',                         'Honar',                     'هنر'],
+      ['Turtle',                      'Laakposht',                 'لاک پشت'],
+      ['To Fly',                      'Parvaaz Kardan',            'پرواز کردن'],
+      ['Recipe',                      'Dastoorol Amal',            'دستور العمل'],
+      ['Slow',                        ['Kond', 'Yavaash'],         ['کند', 'یواش']],
+      ['To Speak',                    'Sohbat',                    'صحبت'],
+      ['Please speak more slowly',    'Lotfan Yavaashtar Sohbat Konid', 'لطفآ یواش تر صحبت کنید'],
+      ['What is it in Farsi?',        'Beh Farsi Chi Mishe?',      'به فارسی چی میشه'],
+      ['Camera',                      'Doorbeen',                  'دوربین'],
+      ['This Alone',                  'Tanhaa Hameen',             'تنها همین'],
+      ['I am killing',                'Mikosham',                  'می کشم'],
+      ['To Kill',                     'Koshtan',                   'کشتن'],
+      ['(A) Type',                    'Joor',                      'جور'],
+      ['To Digest',                   'Hazm Kardan',               'هضم کردن'],
+      ['To Design',                   'Tarh Kardan',               'طرح  کردن '],
+      ['(A) Design',                  'Tarraahee',                 'طراحی'],
+      ['(A) Translation',             'Tarjomeh',                  'ترجمه'],
+      ['Bank Account',                'Hesaabe Baanki',            'حساب بانکی'],
+      ['Order (Given)',               'Dastoor',                   'دستور'],
+      ['Secret',                      'Raaz',                      'راز'],
+      ['Ready?',                      'Haazeri',                   'حاضری'],
+      ['Snake',                       'Maar',                      'مار'],
+      ['But',                         ['Vali', 'Balkeh'],          ['ولی', 'بلکه']],
+      ['I Could',                     'Tavaanestam',               'توانستم'],
+      ['I Can',                       'Meetavaanam',               'می توانم'],
+      ['Single',                      'Tek',                       'تک'],
+      ['(Current) Status',            'Ahvaal',                    'احوال'],
+      ['Wing',                        'Baal',                      'بال'],
+      ['Africa',                      'Aafrighaa',                 'آفریقا'],
+      ['Nut (Bolt)',                  'Mohreh',                    'مهره'],
+      ['Flame',                       'Shoh-leh',                   'شعله'],
+      ['Earthquake',                  'Zelzeleh',                  'زلزله'],
+      ['Discount',                    'Takhfeef',                  'تخفیف'],
+      ['Sword',                       'Shamsheer',                 'شمشیر'],
+      ['Gun',                         'Tofang',                    'تفنگ'],
+      ['Gather Round',                'Jamh Sheed',                'جمع شید'],
+      ['Pain',                        'Dard',                      'درد'],
+      ['That Hit The Spot',           'Chasbeed',                  'چسبید'],
+      ['Backpack',                    'Kooleh Poshtee',            'کوله پشتی'],
+      ['Beach',                       'Saahel',                    'ساحل'],
+      ['Seaside',                     'Lab-e Dareaa',              'لب دریا'],
+      ['Government',                  ['Hokoomat', 'Daolat'],      ['حکومت', 'دولت']],
+      ['Stingy',                      'Khasees',                   'خسیس'],
+      ['Demon',                       'Deev',                      'دیو'],
+      ['Metal',                       'Felez',                     'فلز'],
+      ['Creature',                    'Jaanevar',                  'جانور'],
+      ['Rock',                        'Sakhreh',                   'صخره'],
+      ['Welcome',                     'Khosh Aamadeed',            'خوش آمدید'],
+      ['Person',                      'Aadam',                     'آدم'],
+      ['Road',                        ['Jaaddeh', 'Kheeaabaan'],   ['جاده', 'خیابان']],
+      ['(The) Moment',                'Lahzeh',                    'لحظه'],
+      ['Breath',                      'Nafas',                     'نفس'],
+      ['Dove',                        'Kabootar',                  'کبوتر'],
+      ['Life (span)',                 'Omr',                       'عمر'],
+      ['Dancing',                     'Raghs',                     'رقص'],
+      ['Sparkle',                     'Talaalo',                   'تلالو'],
+      ['Don\'t Worry',                'Na-tars',                   'نترس'],
+      ['Suffering',                   'Ranj',                      'رنج'],
+      ['Trumpet',                     'Sheypoor',                  'شیپور'],
+      ['Humiliation',                 'Tah-gheer',                 'تحقیر'],
+      ['Food',                        ['Ghazaa', 'Khooraakee'],    ['غذا', 'خوراکی']],
+      ['Prostitution',                'Fahshaa',                   'فحشا'],
+      ['Pipe',                        'Looleh',                    'لوله'],
+      ['Pocket',                      'Jeeb',                      'جیب'],
+      ['To Wink',                     'Cheshmak Zadan',            'چشمک زدن'],
+      ['Forever',                     'Taa Abad',                  'تا ابد'],
+      ['Alley',                       'Koocheh',                   'کوچه'],
+      ['Swearword',                   'Fohsh',                     'فحش'],
+      ['Leaf',                        'Barg?',                     'برگ'],
+      ['Soul',                        'Rooh',                      'روح'],
+      ['Sun',                         ['Aaftaab', 'Khoorsheed'],   ['افتاب', 'خورشید']],
+      ['Breeze',                      'Naseem',                    'نسیم'],
+      ['Rubbish (Trash)',             'Aashghaal',                 'آشغال'],
+      ['Joke',                        'Shookhee',                  'شوخی'],
+      ['(A) Savage',                  'Vahshee',                   'وحشی'],
+      ['Half',                        ['Neem', 'Nesf'],            ['نیم', 'نصف']],
+      ['(A) Drop',                    'Ghatreh',                   'قطره'],
+      ['Peasant',                     'Rayeat',                    'رعیت'],
+      ['Orphan',                      'Yateemee',                  'یتیمی'],
+      ['Tears',                       'Ashk',                      'اشک']
+      ['Poverty',                     'Faghr',                     'فقر'],
+      ['(Dog) Bark',                  'Paars',                     'پارس'],
+      ['Fatty',                       'Charb',                     'چرب'],
+      ['Criterion',                   'Melaak',                    'ملاک'],
+      ['Sending Someone To Coventry', 'Ghahr',                     'قهر'],
+      ['Fig',                         'Anjeer',                    'انجیر'],
+      ['Destruction',                 'Veeraanee',                 'ويرانی'],
+      ['Light (Sun)',                 'Noor',                      'نور'],
+      ['Death',                       'Marg',                      'مرگ'],
+      ['Companion',                   'Hamsafar',                  'همسفر'],
+      ['Listen!',                     'Beshno',                    'بشنو'],
+      ['Again',                       'Dobare',                    'دوباره'],
+      ['Wave (Sea)',                  'Moj',                       'موج'],
+      ['Pregnant',                    'Hameleh',                   'حامله'],
+      ['To Crush',                    'Leh Kardan',                'له کردن'],
+      ['Naughtiness',                 'Sheytooni',                 'شیطونی'],
+      ['Eyelid',                      'Pelk',                      'پلک'],
+      ['A Yawn', 	              'Khameeaazeh',               'خمیازه'],
+      ['A Fly', 	              'Magasee',                   'مگسی'],
+      ['You Have The Right', 	      'Hagh Daaree',               'حق داری'],
+      ['Wage', 	                      'Mozd',                      'مزد'],
+      ['Trouble', 	              'Dardesar',                  'دردسر'],
+      ['To Help', 	              'Komak Kardan',              'کمک کردن'],
+      ['Goat', 	                      'Boz',                       'بز'],
+      ['Boat', 'Ghaayegh', 'قایق'],
+      ['Grape', 'Aangoor', 'انگور'],
+      ['Peach', 'Holoo', 'هلو'],
+      ['Yellow', 'Zard', 'زرد'],
+      ['Fence', 'Nardeh', 'نرده'],
+      ['Ladder', 'Nardebaan', 'نردبان'],
+      ['Ice', 'Yakh', 'یخ'],
+      ['Heaven', 'Behesht', 'بهشت'],
+      ['Deer', 'Aahoo', 'آهو'],
+      ['Shepherd', 'Choopaan', 'چوپان'],
+      ['Mushroom', 'Ghaarch', 'قارچ'],
+      ['Fountain', 'Cheshmeh', 'چشمه'],
+      ['Network', 'Shabkeh', 'شبکه'],
+      ['Social', 'Ejtamaayee', 'اجتماعی'],
+      ['Warning', 'Ekhtar', 'اخطار'],
+      ['Angry', 'Asabaanee', 'عصبانی'],
+      ['Even', 'Hat\'taa', 'حتی'],
+      ['Soon', 'Behzoodee', 'به زودی'],
+      ['The Tip', 'Nok', 'نک'],
+      ['Direction', 'Jahat', 'جهت'],
+      ['To Bend', 'Kham Shodan', 'خم شدن'],
+      ['To Wear', 'Poosheedan', 'پوشیدن'],
+      ['Electricity', 'Bargh', 'برق'],
+      ['Scary', 'Tarsnaak', 'ترسناک'],
+      ['Thunder', 'Rad', 'رعد'],
+      ['Terrified', 'Zahreh Tark', 'زهره ترک'],
+      ['Finally', 'Belakhareh', 'بالاخره'],
+      ['To Burst', 'Tarkeed', 'ترکید'],
+      ['Severe', 'Shadeed', 'شدید'],
+      ['Horrible', 'Vahshatnaak', 'وحشتناک'],
+      ['Layer', 'Laayeh', 'لایه'],
+      ['To Exit', 'Khaarej Shodan', 'خارج شدن'],
+      ['Answer',  ['Paasokh' / 'Javaab'], ['پاسخ', 'جواب']],
+      ['Dark', 'Taareek', 'تاریک'],
     ];
+
+// taareek - dark  
+
+    // Geer Kardan (To Get Stuck)
+    //  ['', '', ''],
+
+    var randomDistribution = populateRandomDistribution();
 
     var checkLoad = function() {   
       if($$('answer3')){

@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - 0.8
+branches:
+  only:
+  - master
+script: ruby deploy.rb
+env:
+  global:
+  - secure: "AGo3L+ph3L0rHaaTkXr/ccTYxlg57KPgvhlsO1JbUoP/q1lzX9Jfw3CLU3xMuQEtXkyYXbW1Oel/mFQEg8F6SSI4PRnnzYOwZ9041kMaJi0ew3kFZUhn/92w7I6qIiYko4At0XbPWJM6hh2nlCMBai+wDK9khrWOikj3jEQunJg="
