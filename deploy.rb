@@ -18,6 +18,9 @@
   system "git push origin master"
   system "git checkout gh-pages"
   system "git merge master -m 'Updating Github Pages branch'"
+  system "./build"
+  system "git add -f farsi-flash-cards.zip"
+  system "git commit -m \"Added latest packaged version\""
   system "git push origin gh-pages"
   system "git checkout master"
   File.delete '.git/credentials'
