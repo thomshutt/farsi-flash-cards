@@ -2,18 +2,6 @@
   <head>
     <title>Flash Cards</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  </head>
-  <body>
-    <div id="question">
-      <p id="question1"><!-- Contents added by Javascript --></p>
-    </div>
-    <div id="answer">
-      <p>
-        <span id="answer1"><!-- Contents added by Javascript --></span> 
-        <span id="answer2"><!-- Contents added by Javascript --></span> 
-        <span id="answer3"><!-- Contents added by Javascript --></span>
-      </p>
-    </div>
     <style type="text/css">
       p, span {
         color: white;
@@ -21,8 +9,9 @@
         font-size: 70px;
         line-height: inherit;
      }
-     #answer span {
+     #answer p {
         font-size: 30px;
+        line-height: 15px;
      }
      #question, #answer {
        display: block;
@@ -37,7 +26,20 @@
        vertical-align: middle;
        line-height: 150px;
      }
+     #answer {
+       margin-top: -105px;
+     }
     </style>
+  </head>
+  <body>
+    <div id="question">
+      <p id="question1"><!-- Contents added by Javascript --></p>
+    </div>
+    <div id="answer">
+      <p id="answer1"><!-- Contents added by Javascript --></p> 
+      <p id="answer2"><!-- Contents added by Javascript --></p>
+      <p id="answer3"><!-- Contents added by Javascript --></p>
+    </div>
   </body>
   <script type="text/javascript">
     var STATE = 'QUESTION';
@@ -68,8 +70,8 @@
 
     var revealAnswer = function revealAnswer(){
       STATE = 'ANSWER'
-      $$('answer1').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][0]) + ' / '
-      $$('answer2').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][1]) + ' / '
+      $$('answer1').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][0])
+      $$('answer2').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][1])
       $$('answer3').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][2])
       $$('question').style.display = 'none'
       $$('answer').style.display = 'block'
