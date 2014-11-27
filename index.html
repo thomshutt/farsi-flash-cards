@@ -1053,8 +1053,9 @@
 
     var checkLoad = function() {   
       if($$('answer3')){
-        document.body.onclick = toggleCards
+        document.body.onclick = toggleCards;
         chooseCard();
+        alert("Total Cards: " + CARDS.length);
       } else {
         setTimeout(checkLoad, 11);
       }
