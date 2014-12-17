@@ -1102,6 +1102,7 @@
     var checkLoad = function() {   
       if($$('answer3')){
         document.body.onclick = toggleCards;
+        window.addEventListener("keyup", toggleCards, false);
         chooseCard();
         alert("Total Cards: " + CARDS.length);
       } else {
