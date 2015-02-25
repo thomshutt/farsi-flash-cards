@@ -1066,6 +1066,8 @@ var CARDS = [
 ['Peace', 'Solh', 'صلح'],
 ['Amen', 'Aameen', 'امین'],
 ['Happy', 'Shaad', 'شاد'],
+['I Hate', 'Motnaferam', 'متنفرم'],
+['Magic', 'Jaadoo', 'جادو'],
 ];
 
 //  ['', '', ''],
