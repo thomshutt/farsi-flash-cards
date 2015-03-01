@@ -1,4 +1,4 @@
-var CARDS = [
+CARDS = [
 ['Fart',           'Gooz',           'گوز'],
 ['Cow',            'Gaav',           'گاو'],
 ['Dog',            'Sag',            'سگ'],
