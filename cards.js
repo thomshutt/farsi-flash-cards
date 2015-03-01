@@ -1,4 +1,4 @@
-var CARDS = [
+CARDS = [
 ['Fart',           'Gooz',           'گوز'],
 ['Cow',            'Gaav',           'گاو'],
 ['Dog',            'Sag',            'سگ'],
@@ -884,7 +884,7 @@ var CARDS = [
 ['Faeces', 'Madfooh', 'مدفوع'],
 ['Close It (Command)', 'Beband', 'ببند'],
 ['Throne', 'Arsh', 'عرش'],
-['Crime', 'Jerm', 'جرم'],
+['Crime', 'Jorm', 'جرم'],
 ['Officer', 'Mamoor', 'مامور'],
 ['Fireman', 'Mamoore Aatish Neshaanee', 'مامور آتش نشانی'],
 ['Station', 'Aeestgaah', 'ایستگاه'],
