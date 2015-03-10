@@ -101,7 +101,7 @@
 
       var numEntries = 1;
       for(var currentCardIndex = 0; currentCardIndex < CARDS.length; currentCardIndex++) {
-        numEntries = currentCardIndex;
+        numEntries = (currentCardIndex + 1);
 	if(CARDS.length - currentCardIndex < 50) {
           numEntries = numEntries * 2;
         }
