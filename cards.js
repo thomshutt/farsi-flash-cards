@@ -1088,7 +1088,8 @@ CARDS = [
 ['Useless', 'Beefaaydeh', 'بیفایده'],
 ['Roof', 'Baam', 'بام'],
 ['Greenhouse', 'Golkhaaneh', 'گلخانه'],
-['Shelf', ['Taaghcheh', 'Ghafaseh'], ['تاقچه', 'قفسه']],
+['Alcove', 'Taaghcheh', 'تاقچه'],
+['Cabinet', 'Ghafaseh', 'قفسه'],
 ['Cage', 'Ghafas', 'قفس'],
 ['I Am Feeling', 'Ehsaas Mikonam', 'احساس میکنم'],
 ['To Change / Exchange', 'Avaz Kardan', 'عوض کردن'],
@@ -1096,6 +1097,10 @@ CARDS = [
 ['Bent / Crooked', 'Kaj', 'کج'],
 ['Stop It!', 'Bas Kon', 'بس کن'],
 ['Shiny', 'Baraagh', 'براق'],
+['To Pay Lip Service', 'Lagh Lagh-e Zabaan', 'لق لق زبان'],
+['Big Circular Drum', 'Daf', 'دف'],
+['Revenge', 'Enteghaam', 'انتقام'],
+['Sweetcorn', 'Zorat', 'ذرت'],
 ];
 
 //  ['', '', ''],
