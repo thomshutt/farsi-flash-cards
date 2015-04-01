@@ -1100,6 +1100,7 @@ CARDS = [
 ['Medium (Size)', 'Motavaset', 'متوسط'],
 ['Broom', 'Jaaroo', 'جارو'],
 ['Allergy', 'Hasaaseet', 'حساسیت'],
+['Gizzard', 'Sangdoon', 'سنگدان'],
 ];
 
 //  ['', '', ''],
