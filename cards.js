@@ -1059,7 +1059,6 @@ CARDS = [
 ['Peace', 'Solh', 'صلح'],
 ['Amen', 'Aameen', 'امین'],
 ['Happy', 'Shaad', 'شاد'],
-['I Hate', 'Motnaferam', 'متنفرم'],
 ['Magic', 'Jaadoo', 'جادو'],
 ['Ass (Donkey)', 'Olaagh', 'الاغ'],
 ['Heel', 'Paashneh', 'پاشنه'],
@@ -1101,6 +1100,8 @@ CARDS = [
 ['Broom', 'Jaaroo', 'جارو'],
 ['Allergy', 'Hasaaseet', 'حساسیت'],
 ['Gizzard', 'Sangdoon', 'سنگدان'],
+['I Hate', 'Motnaferam', 'متنفرم'],
+['Enemy', ['Doshman', 'Adoo'], ['دشمن', 'عدو']],
 ];
 
 //  ['', '', ''],
