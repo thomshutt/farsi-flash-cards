@@ -1133,10 +1133,10 @@ CARDS = [
 ['Homemade', 'Khaanegee', 'خانگی'],
 ['Famous', "Ma'roof", 'معروف'],
 ['Fresh', 'Taazeh', 'تازه'],
-['Basket', 'Sabd', 'سبد'],
+['Basket', 'Sabad', 'سبد'],
 ['Tuna', 'Maahee Ton', 'ماهی تن'],
 ['Painter', 'Naghaash', 'نقاش'],
-['Photographer', 'Akaas', 'عکاس'],
+['Photographer', 'Akkaas', 'عکاس'],
 ['House', ['Khaane', 'Manzel'], ['خانه', 'منزل']],
 ];
 
