@@ -1130,6 +1130,12 @@ CARDS = [
 ['Anger', 'Khashm', 'خشم'],
 ['Dizzy / Confused', 'Geej', 'گیج'],
 ['To Dare', 'Joraat Kardan', 'جرات کردن'],
+['How Come?', 'Chetoor Magar?', 'چطور مگر؟'],
+['Homemade', 'Khaanegee', 'خانگی'],
+['Famous', "Ma'roof", 'معروف'],
+['Fresh', 'Taazeh', 'تازه'],
+['Basket', 'Sabd', 'سبد'],
+['Tuna', 'Maahee Ton', 'ماهی تن'],
 ];
 
 //  ['', '', ''],
