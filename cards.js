@@ -28,7 +28,6 @@ CARDS = [
 ['Eye',            'Cheshm',         'چشم'],
 ['Window',         'Panjareh',       'پنجره'],
 ['Door',           'Dar',            'در'],
-['House',          'Khaane',         'خانه'],
 ['Thing',          'Cheez',          'چیز'],
 ['Question',       'Soaal',          'سوال'],
 ['Country',        'Keshvar',        'کشور'],
@@ -1136,6 +1135,9 @@ CARDS = [
 ['Fresh', 'Taazeh', 'تازه'],
 ['Basket', 'Sabd', 'سبد'],
 ['Tuna', 'Maahee Ton', 'ماهی تن'],
+['Painter', 'Naghaash', 'نقاش'],
+['Photographer', 'Akaas', 'عکاس'],
+['House', ['Khaane', 'Manzel'], ['خانه', 'منزل']],
 ];
 
 //  ['', '', ''],
