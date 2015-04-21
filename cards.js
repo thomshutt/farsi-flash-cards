@@ -1152,6 +1152,11 @@ CARDS = [
 ['I Bought', 'Khareedam', 'خریدم'],
 ['I Am Sitting', 'Meenesheenam', 'می نشینم'],
 ['I Sat', 'Neshastam', 'نشستم'],
+['Classmate', 'Hamkelaas', 'همکلاس'],
+['Surname', 'Esm-e Faameel', 'اسم فامیل'],
+['Future', 'Aayandeh', 'آینده'],
+['Next Month', 'Maah-e Aayandeh', 'ماه آینده'],
+['Island', 'Jazeereh', 'جزیره'],
 ];
 
 //  ['', '', ''],
