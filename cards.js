@@ -294,7 +294,6 @@ CARDS = [
 ['To Decide',      'Tasmeem Gereftan', 'تصمیم گرفتن'],
 ['To Go',          'Beravam',        'بروم'],
 ['To Find',        'Paydaa Kardan',  'پیدا کردن'],
-['(It / He / She) Wants', 'Meekhaahad', 'می خواهد'],
 ['News',           'Khabar',         'خبر'],
 ['(At the) Time',  'Mogh-e',         'موقع'],
 ['Someone',        'Kasee',          'کسی'],
@@ -1181,6 +1180,14 @@ CARDS = [
 ['I Am Coming', 'Meeaam', 'میام'],
 ['I Came', 'Aamadam', 'آمدم'],
 ['Come With Me', 'Baa Man Beeaaeed', 'با من بیاید'],
+['I Had', 'Daashtam', 'داشتم'],
+['I Knew', 'Meedaanestam', 'میدانستم'],
+['I Am Seeing', 'Meebeenam', 'می بینم'],
+['I Saw', 'Deedam', 'دیدم'],
+['I Wanted', 'Khaastam', 'خواستم'],
+['I Want', 'Meekhaahm', 'می خواهم'],
+['I Asked', 'Porseedam', 'پرسیدم'],
+['I Am Asking', 'Meeporsam', 'میپرسم'],
 ];
 
 //  ['', '', ''],
