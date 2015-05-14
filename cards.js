@@ -1220,6 +1220,7 @@ CARDS = [
 ['I Am Welcoming', 'Esteghbaal Mikonam', 'استقبال میکنم'],
 ['I Welcomed', 'Eshteghbaal Kardam', 'استقبال کردم'],
 ['Meet And Greet / Visiting', 'Deed O Baazdeed', 'دید و بازدید'],
+['Twins', 'Dogholoo', 'دوقلو'],
 ];
 
 //  ['', '', ''],
