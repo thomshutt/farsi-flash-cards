@@ -1222,6 +1222,8 @@ CARDS = [
 ['Meet And Greet / Visiting', 'Deed O Baazdeed', 'دید و بازدید'],
 ['Twins', 'Dogholoo', 'دوقلو'],
 ['I Am Shaving', 'Reesham Eslaah Mikonam', 'ریشم اصلاح می کنم']
+['Masterpiece', 'Shaahkaar', 'شاهکار'],
+['Is Situated', 'Gharaar Daarad', 'قرار دارد'],
 ];
 
 //  ['', '', ''],
