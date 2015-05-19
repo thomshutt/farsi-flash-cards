@@ -1224,6 +1224,13 @@ CARDS = [
 ['I Am Shaving', 'Reesham Eslaah Mikonam', 'ریشم اصلاح می کنم']
 ['Masterpiece', 'Shaahkaar', 'شاهکار'],
 ['Is Situated', 'Gharaar Daarad', 'قرار دارد'],
+['Male (Animal)', 'Nar', 'نر'],
+['Female (Animal)', 'Maadeh', 'ماده'],
+['Cool / Lively / Spirited', 'Baahaal', 'باحال'],
+['Evidence / Proof / Uni Degree', 'Madrak', 'مدرک'],
+['Gambler', 'Ghomaar Baaz', 'قمار باز'],
+['Womaniser', 'Zan Baaz', 'زن باز'],
+['Faint', 'Ghash', 'غش'],
 ];
 
 //  ['', '', ''],
