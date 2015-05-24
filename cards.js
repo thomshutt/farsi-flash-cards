@@ -611,7 +611,7 @@ CARDS = [
 ['Date (Fruit)', 'Khormaa', 'خرما'],
 ['Plum', 'Aaloo', 'آلو'],
 ['Outcome', 'Payaamad', 'پیامد'],
-['Queen', 'Malkeh', 'ملکه'],
+['Queen', 'Malakeh', 'ملکه'],
 ['Independence', 'Aastaghaalal', 'استقلال'],
 ['What\'s On Your Mind?', 'Dar Che Fekr Hastid', 'در چه فکر هستید'],
 ['To Surprise', 'Mota\'a\'jeb Kardan', 'متعجب کردن'],
