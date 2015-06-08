@@ -1268,6 +1268,8 @@ CARDS = [
 ['Quiet', ['Saaket', 'Aaraam'], ['ساکت', 'آرام']],
 ['I Would Prefer If', 'Tarjeeh Meedaham Ke', 'ترجیح میدهم که'],
 ['Shape', 'Shekl', 'شکل'],
+['Cleric', 'Aakhoond', 'آخوند'],
+['Tattoo', 'Khaal Koobee', 'خال کوبی'],
 ];
 
 //  ['', '', ''],
