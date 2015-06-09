@@ -1270,6 +1270,8 @@ CARDS = [
 ['Shape', 'Shekl', 'شکل'],
 ['Cleric', 'Aakhoond', 'آخوند'],
 ['Tattoo', 'Khaal Koobee', 'خال کوبی'],
+["I'm Sorry", "Motaa'asefam", 'متاسفم'],
+['Forecast', 'Peesh Beenee', 'پیش بینی'],
 ];
 
 //  ['', '', ''],
