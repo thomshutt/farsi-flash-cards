@@ -1296,6 +1296,13 @@ CARDS = [
 ['Fever', 'Tab', 'تب'],
 ['I Am Cooking', 'Meepazam', 'می پزم'],
 ['I Cooked', 'Pokhtam', 'پختم'],
+['Village', ['Roostaa', 'Dahaat'], ['روستا', 'دهات']],
+['Prevalent', 'Raaeej', 'رایج'],
+['Edbeeaat', 'Literature', 'ادبیات'],
+['Value', 'Arzesh', 'ارزش'],
+['Valuable', 'Baa Arzesh', 'با ارزش'],
+['Special / Specific', 'Khaas', 'خاص'],
+['Rich', 'Ghanee', 'غنی'],
 ];
 
 //  ['', '', ''],
