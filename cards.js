@@ -1303,6 +1303,8 @@ CARDS = [
 ['Valuable', 'Baa Arzesh', 'با ارزش'],
 ['Special / Specific', 'Khaas', 'خاص'],
 ['Rich (In)', 'Ghanee', 'غنی'],
+['Careful', 'Movaazeb', 'مواظب'],
+['Be Careful', 'Movaazeb Baash', 'مواظب باش'],
 ];
 
 //  ['', '', ''],
