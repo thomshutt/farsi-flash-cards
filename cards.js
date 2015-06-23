@@ -1327,6 +1327,9 @@ CARDS = [
 ['In My Opinion', 'Beh Nazar-e Man', 'به نظر من'],
 ['Capital (City)', 'Paayetakht', 'پایتخت'],
 ['Job', ['Shoghl', 'Kaar'], ['شغل', 'کار']],
+['Good For You', 'Khosh Be Haal-e Shomaa', 'خوش به حالت'],
+['The Day After Tomorrow', 'Pas Fardaa', 'پس فردا'],
+['What Day Is It Today?', 'Emrooz Chand Shanbast', 'امروز چند شنبه است'],
 ];
 
 //  ['', '', ''],
