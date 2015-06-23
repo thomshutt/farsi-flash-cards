@@ -101,9 +101,8 @@
 
       var numEntries = 1;
       for(var currentCardIndex = 0; currentCardIndex < CARDS.length; currentCardIndex++) {
-        // numEntries = (currentCardIndex + 1);
-	if(CARDS.length - currentCardIndex < 100) {
-          numEntries = currentCardIndex;
+	if(CARDS.length - currentCardIndex < 200) {
+          numEntries += 1;
         }
         for(var entryNum = 0; entryNum < numEntries; entryNum++) {
           returnVal.push(currentCardIndex);
