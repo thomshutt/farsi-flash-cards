@@ -37,7 +37,6 @@ CARDS = [
 ['Number',         'Shomareh',       'شماره'],
 ['Room',           'Otaagh',         'اتاق'],
 ['Reality',        'Vaaghayiat',     'واقعیت'],
-['Job',            'Kaar',           'کار'],
 ['Shoe',           'Kafsh',          'کفش'],
 ['Grey',           'Khakestaree',    'خاکستری'],
 ['Neck',           'Gardan',        'گردن'],
@@ -1327,6 +1326,7 @@ CARDS = [
 ['Song', ['Aavaaz', 'Aahang'], ['آواز', 'آهنگ']],
 ['In My Opinion', 'Beh Nazar-e Man', 'به نظر من'],
 ['Capital (City)', 'Paayetakht', 'پایتخت'],
+['Job', ['Shoghl', 'Kaar'], ['شغل', 'کار']],
 ];
 
 //  ['', '', ''],
