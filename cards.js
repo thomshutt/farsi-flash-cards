@@ -1333,6 +1333,9 @@ CARDS = [
 ['Player (Sport)', 'Baazeekon', 'بازیکن'],
 ['Middle', 'Vasat', 'وسط'],
 ['Rainbow', 'Rangeen Kamoon', 'رنگین کمون'],
+['Light Switch', 'Keleed-e Bargh', 'کلید برق'],
+['With Your Permission', 'Baa Ejaazehye', 'با اجازه ی شما'],
+['(A) Slide', 'Sarsareh', 'سرسره'],
 ];
 
 //  ['', '', ''],
