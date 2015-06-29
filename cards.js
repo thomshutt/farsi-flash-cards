@@ -1336,7 +1336,7 @@ CARDS = [
 ['Light Switch', 'Keleed-e Bargh', 'کلید برق'],
 ['With Your Permission', 'Baa Ejaazehye', 'با اجازه ی شما'],
 ['(A) Slide', 'Sarsareh', 'سرسره'],
-["There Wasn't Space To Throw A Needle", 'Jaaye Soozan Aandaakhtan Nabood', 'جای سوزن انداختن نبود'],
+["There Wasn't Space To Drop A Needle", 'Jaaye Soozan Aandaakhtan Nabood', 'جای سوزن انداختن نبود'],
 ];
 
 //  ['', '', ''],
