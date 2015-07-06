@@ -1336,6 +1336,9 @@ CARDS = [
 ['Light Switch', 'Keleed-e Bargh', 'کلید برق'],
 ['With Your Permission', 'Baa Ejaazehye', 'با اجازه ی شما'],
 ['(A) Slide', 'Sarsareh', 'سرسره'],
+['Exam', 'Emtehaan', 'امتحان'],
+['Witness', 'Shaahed', 'شاهد'],
+['After An Hour', "Yeh Sa'at-e Digeh", 'یه ساعت دیگه'],
 ["There Wasn't Space To Drop A Needle", 'Jaaye Soozan Aandaakhtan Nabood', 'جای سوزن انداختن نبود'],
 ];
 
