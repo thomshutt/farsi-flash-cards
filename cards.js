@@ -1340,6 +1340,11 @@ CARDS = [
 ['Witness', 'Shaahed', 'شاهد'],
 ['After An Hour', "Yeh Sa'at-e Digeh", 'یه ساعت دیگه'],
 ["There Wasn't Space To Drop A Needle", 'Jaaye Soozan Aandaakhtan Nabood', 'جای سوزن انداختن نبود'],
+['Cancer', 'Sarataan', 'سرطان'],
+['Asthma', 'Aasm', 'آسم'],
+['To Fast', 'Roozeh Gereftan', 'روزه گرفتن'],
+['To Punish', 'Tanbeeh Kardan', 'تنبیه کردن'],
+['To Die', 'Fot Kardan', 'فوت کردن'],
 ];
 
 //  ['', '', ''],
