@@ -1377,6 +1377,7 @@ CARDS = [
 ['I Am Shy', 'Man Hejaalatee Hastam', 'من خجالتی هستم'],
 ['Happy', 'Shaad', 'شاد'],
 ['Alas', ['Afsoos', 'Hayf'], ['افسوس', 'حیف']],
+['Hookah', 'Ghaliaian', 'قلیان'],
 ];
 
 //  ['', '', ''],
