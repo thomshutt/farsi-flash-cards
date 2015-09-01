@@ -71,6 +71,7 @@ CARDS = [
 ['Indonesia', 'Andonezee', 'اندونزی'],
 ['Have Fun', 'Khosh Begzareh', 'خوش بگذره'],
 ['Discharged (Hospital)', 'Morakhas', 'مرخص'],
+['Say Hi To Your Father', 'Beh Pedaretaan Salaam Beresaaneed', 'به پدرتان سلام برسانید'],
 
 ['To Travel A Distance', 'Tey Kardan', 'طی کردن'],
 ['To Pass (By / Through) (Challenging)', 'Oboor Kardan', 'عبور کردن'],
@@ -89,6 +90,22 @@ CARDS = [
 ['I Am Continuing', 'Edaameh Meedaham', 'ادامه می دهم'],
 ['I Continued', 'Edaameh Daadam', 'ادامه دادم'],
 ['I Was Continuing', 'Edaameh Meedaadam', 'ادامه می دادم'],
+
+['(An) Interest', 'Alaagheh', 'علاقه'],
+[['Reader', 'Singer'], 'Khaanandeh', 'خواننده'],
+['Style (of)', 'Sabk(e)', 'سبکِ'],
+['Skilled', 'Maaher', 'ماهر'],
+['Actor', ['Baazeegar', 'Honarpeesheh'], ['بازیگر', 'هنرپیشه']],
+['Almost', 'Taghreeban', 'تقریباً'],
+['Last Year', 'Saal-e Gozashteh', 'سال گذشته'],
+['Fan / Supporter', 'Havaadaar', 'هوادار'],
+['Tourist', 'Gardeshgar', 'گردشگر'],
+['Tourism', 'Gardeshgaree', 'گردشگری'],
+['Works (Artistic)', 'Aasaar', 'آثار'],
+['Is Counted As', 'Beh Hesaab Meeaaeed', 'به حساب می آید'],
+['To Record', 'Zabt Kardan', 'ضبط کردن'],
+['I Visited', 'Deedan Kardam', 'دیدن کردم'],
+['World', ['Aalam', 'Donyaa', 'Jahaan'], ['عالم', 'دنیا', 'جهان']],
 ];
 
 //  ['', '', ''],
