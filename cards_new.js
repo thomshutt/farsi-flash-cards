@@ -72,18 +72,18 @@ CARDS = [
 ['Have Fun', 'Khosh Begzareh', 'خوش بگذره'],
 ['Discharged (Hospital)', 'Morakhas', 'مرخص'],
 
-['To Pass (By / Through)', 'Pey Kardan', 'طی کردن'],
-['To Pass (By / Through)', 'Oboor Kardan', 'عبور کردن'],
-['To Move (Somewhere)', 'Harekat Kardan', 'حرکت کردن'],
+['To Travel A Distance', 'Tey Kardan', 'طی کردن'],
+['To Pass (By / Through) (Challenging)', 'Oboor Kardan', 'عبور کردن'],
+['To Start Moving (Somewhere)', 'Harekat Kardan', 'حرکت کردن'],
 
 ['I Passed', 'Gozashtam', 'گذشتم'],
 ['I Am Passing', 'Man Meegozaram', 'من میگذرم'],
 ['I Was Passing', 'Man Meegozashtam', 'من می گذشتم'],
 
-['To Traverse', 'Peymoodan', 'پیمودن'],
-['I Traversed', 'Man Peymoodam', 'من پیمودم'],
-['I Was Traversing', 'Man Meepeymoodam', 'من می پیمودم'],
-['I Am Traversing', 'Man Meepeymaayam', 'من می پیمایم'],
+['To Traverse (Road/Path)', 'Peymoodan', 'پیمودن'],
+['I Traversed (Road/Path)', 'Man Peymoodam', 'من پیمودم'],
+['I Was Traversing (Road/Path)', 'Man Meepeymoodam', 'من می پیمودم'],
+['I Am Traversing (Road/Path)', 'Man Meepeymaayam', 'من می پیمایم'],
 
 ['To Continue', 'Edaameh Daadan', 'ادامه دادن'],
 ['I Am Continuing', 'Edaameh Meedaham', 'ادامه می دهم'],
