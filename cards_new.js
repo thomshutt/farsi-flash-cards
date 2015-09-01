@@ -64,6 +64,10 @@ CARDS = [
 ['Inevitably', 'Beh Naachaar', 'به ناچار'],
 ['Port (Sea)', 'Bandar', 'بندر'],
 ['Also', 'Hamcheneen', 'همچنین'],
+['Portugal', 'Porteghaal', 'پرتغال'],
+['Orange (Fruit)', 'Portaghaal', 'پرتقال'],
+['The Remaining / The Rest', 'Bagheeyeh', 'بقیه'],
+[['History (Subject)', 'Date'], 'Taareekh', 'تاریخ'],
 
 ['To Pass (By / Through)', 'Pey Kardan', 'طی کردن'],
 ['To Pass (By / Through)', 'Oboor Kardan', 'عبور کردن'],
