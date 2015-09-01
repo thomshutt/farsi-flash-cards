@@ -68,6 +68,9 @@ CARDS = [
 ['Orange (Fruit)', 'Portaghaal', 'پرتقال'],
 ['The Remaining / The Rest', 'Bagheeyeh', 'بقیه'],
 [['History (Subject)', 'Date'], 'Taareekh', 'تاریخ'],
+['Indonesia', 'Andonezee', 'اندونزی'],
+['Have Fun', 'Khosh Begzareh', 'خوش بگذره'],
+['Discharged (Hospital)', 'Morakhas', 'مرخص'],
 
 ['To Pass (By / Through)', 'Pey Kardan', 'طی کردن'],
 ['To Pass (By / Through)', 'Oboor Kardan', 'عبور کردن'],
