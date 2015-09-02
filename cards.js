@@ -1261,8 +1261,6 @@ CARDS = [
 ['I Am Washing', 'Meeshooram', 'می شورم'],
 ['Materialistic', 'Maadeegaree', 'مادیگری'],
 ['Fever', 'Tab', 'تب'],
-['I Am Cooking', 'Meepazam', 'می پزم'],
-['I Cooked', 'Pokhtam', 'پختم'],
 ['Village', ['Roostaa', 'Dehaat'], ['روستا', 'دهات']],
 ['Prevalent', 'Raayej', 'رایج'],
 ['Adabeeaat', 'Literature', 'ادبیات'],

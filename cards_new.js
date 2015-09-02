@@ -113,6 +113,8 @@ CARDS = [
 ['Cooking Oil', 'Roghan', 'روغن'],
 ['To Tidy', 'Moratab Kardan', 'مرتّب کردن'],
 ['Get (Something) Ready / Prepare', 'Aamaadeh Kardan', 'آماده کردن'],
+['I Am Cooking', 'Meepazam', 'می پزم'],
+['I Cooked', 'Pokhtam', 'پختم'],
 ];
 
 //  ['', '', ''],
