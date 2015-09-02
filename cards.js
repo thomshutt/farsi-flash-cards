@@ -832,7 +832,6 @@ CARDS = [
 ['Whale', 'Nahang', 'نهنگ'],
 ['Bedroom', 'Otaagh Khaab', 'اطاق خواب'],
 ['To Move', 'Takoon Khordan', 'تکون خوردن'],
-['Some (Measurable)', 'Meghdaari', 'مقداری'],
 ['I Can', 'Man Meetoonam', 'من میتونم'],
 ['I Hear', 'Man Meeshnavam', 'من می شنوم'],
 ['I Am Smelling', 'Man Boo Mikonam', 'من بو می کنم'],

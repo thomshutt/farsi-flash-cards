@@ -106,6 +106,13 @@ CARDS = [
 ['To Record', 'Zabt Kardan', 'ضبط کردن'],
 ['I Visited', 'Deedan Kardam', 'دیدن کردم'],
 ['World', ['Aalam', 'Donyaa', 'Jahaan'], ['عالم', 'دنیا', 'جهان']],
+
+['I Got Out Of Bed', 'Boland Shodam', 'بلند شدم'],
+['Except For', 'Beh Joz', 'به جز'],
+['Some (Measurable)', 'Meghdaari', 'مقداری'],
+['Cooking Oil', 'Roghan', 'روغن'],
+['To Tidy', 'Moratab Kardan', 'مرتّب کردن'],
+['Get (Something) Ready / Prepare', 'Aamaadeh Kardan', 'آماده کردن'],
 ];
 
 //  ['', '', ''],
