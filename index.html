@@ -56,7 +56,7 @@
   
     var chooseCard = function chooseCard(){
       STATE = 'QUESTION'; 
-      CURRENT_CARD = getRandomCardIndex(); 
+      CURRENT_CARD = getOrderedCardIndex(); 
       var startLanguage = chooseStartLanguage();
       $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
       $$('question').style.display = 'block'
@@ -101,7 +101,7 @@
 
       var numEntries = 1;
       for(var currentCardIndex = 0; currentCardIndex < CARDS.length; currentCardIndex++) {
-	if(false && CARDS.length - currentCardIndex < 200) {
+	if(CARDS.length - currentCardIndex < 200) {
           numEntries += 1;
         }
         for(var entryNum = 0; entryNum < numEntries; entryNum++) {
@@ -113,7 +113,14 @@
     }; 
 
     var getRandomCardIndex = function getRandomCardIndex() {
-       return randomDistribution[Math.floor(Math.random() * randomDistribution.length)];
+      return randomDistribution[Math.floor(Math.random() * randomDistribution.length)];
+    };
+
+    var currentIndex = -1;
+    var getOrderedCardIndex = function getOrderedCardIndex() {
+      currentIndex++;
+      currentIndex = currentIndex % CARDS.length;
+      return currentIndex;
     };
 
     /* ----------- UNIT TESTS  ----------- */ 
