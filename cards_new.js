@@ -43,7 +43,6 @@ CARDS = [
 ['Button (Clothes & Pushable)', 'Dokmah', 'دکمه'],
 ['Pressure', 'Feshaar', 'فشار'],
 ['How (Formal)', 'Chegooneh', 'چگونه'],
-['Use', 'Estefaadeh', 'استفاده'],
 ['Around The World', 'Beh Door-e Donyaa', 'به دورِ دنیا'],
 ['Ship', 'Kashti', 'کشتی'],
 ['I Started', 'Aaghaaz Kardam', 'آغاز کردم'],
