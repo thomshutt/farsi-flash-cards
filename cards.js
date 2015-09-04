@@ -979,14 +979,7 @@ CARDS = [
 ['(A) Label', 'Eteeket', 'اتیکت'],
 ['Posse', 'Ekeep', 'اکیپ'],
 ['(Too) Salty', 'Shoor', 'شور'],
-['Compulsory', 'Ejbaar', 'اجبار'],
-['Sand', 'Maaseh', 'ماسه'],
-['Faith', 'Eemaan', 'ایمان'],
 ['Whole (Of)', 'Kol', 'کل'],
-['Ambience', 'Safaa', 'صفا'],
-['Education', 'Tahseelaat', 'تحصیلات'],
-['Preference', 'Tarjeeh', 'ترجیح'],
-['To Adjust', 'Vafgh Daadan', 'وفق دادن'],
 ["Don't Worry", 'Negaraan Nabaash', 'نگران نباش'],
 ['Soil', 'Khaak', 'خاک'],
 ['Martyr', 'Shaheed', 'شهید'],
@@ -1330,6 +1323,8 @@ CARDS = [
 ['Sugar Cube', 'Ghand', 'قند'],
 ['Tiger', 'Babr', 'ببر'],
 ['Triangle', 'Mosalas', 'مثلث'],
+['Henhouse', 'Morghdaaree', 'مرغداری'],
+['Cooking Oil', 'Roghan', 'روغن'],
 ];
 
 //  ['', '', ''],
