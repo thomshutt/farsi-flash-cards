@@ -1,15 +1,15 @@
 CARDS = [
-['Marriage', 'Ezdevaaj', 'ازدواج']
-['If You Don\'t Want To Be Shamed, Become The Colour Of Society', 'Khaahee Nashavee Rasvaa, Hamrang-e Jamaa-at Sho', 'خواهی نشوی رسوا همرنگ جماعت شو ']
-['Infamous / Shamed', 'Rasvaa', 'رسوا']
-['Crowd / The Masses', 'Jamaa-at', 'جماعت']
+['Marriage', 'Ezdevaaj', 'ازدواج'],
+['If You Don\'t Want To Be Shamed, Become The Colour Of Society', 'Khaahee Nashavee Rasvaa, Hamrang-e Jamaa-at Sho', 'خواهی نشوی رسوا همرنگ جماعت شو '],
+['Infamous / Shamed', 'Rasvaa', 'رسوا'],
+['Crowd / The Masses', 'Jamaa-at', 'جماعت'],
 ['Flowing', 'Ravaan', 'روان'],
 ['Permanent', 'Daaem', 'دائم'],
 ['Unless', 'Magar', 'مگر'],
 ['Salary', 'Hoghoogh', 'حقوق'],
 ['Architect', 'Me-maar', 'معمار'],
 ['Valley', 'Dareh', 'دره'],
-['Side', 'Samt', 'سمت']
+['Side', 'Samt', 'سمت'],
 ['Pencil Sharpener', 'Taraash', 'تراش'],
 ['To Sew', 'Dookhtan', 'دوختن'],
 ['Skirt', 'Daaman', 'دامن'],
