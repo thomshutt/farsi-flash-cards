@@ -17,7 +17,7 @@ CARDS = [
 ['I Could', 'Tavaanestam', 'توانستم'],
 ['Trumpet', 'Sheypoor', 'شیپور'],
 ['Humiliation', 'Tahgheer', 'تحقیر'],
-['Prostitute', 'Faahsheh', 'فاحشه'],
+['Prostitute', 'Faahesheh', 'فاحشه'],
 ['Forever', 'Taa Abad', 'تا ابد'],
 ['Peasant', 'Rayeat', 'رعیت'],
 ['Poverty', 'Faghr', 'فقر'],
