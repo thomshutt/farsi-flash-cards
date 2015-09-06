@@ -119,7 +119,8 @@
     var currentIndex = -1;
     var getOrderedCardIndex = function getOrderedCardIndex() {
       currentIndex++;
-      currentIndex = currentIndex % CARDS.length;
+      // currentIndex = currentIndex % CARDS.length;
+      currentIndex = currentIndex % 25;
       return currentIndex;
     };
 
