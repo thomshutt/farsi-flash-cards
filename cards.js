@@ -1128,6 +1128,28 @@ CARDS = [
 ['I Was Continuing', 'Edaameh Meedaadam', 'ادامه می دادم'],
 
 [['Reader', 'Singer'], 'Khaanandeh', 'خواننده'],
+
+['Marriage', 'Ezdevaaj', 'ازدواج'],
+['Flowing', 'Ravaan', 'روان'],
+['Permanent', 'Daaem', 'دائم'],
+['Unless', 'Magar', 'مگر'],
+['Salary', 'Hoghoogh', 'حقوق'],
+['Architect', 'Me-maar', 'معمار'],
+['Valley', 'Dareh', 'دره'],
+['Side', 'Samt', 'سمت'],
+['Pencil Sharpener', 'Taraash', 'تراش'],
+['To Sew', 'Dookhtan', 'دوختن'],
+['Skirt', 'Daaman', 'دامن'],
+['To Design', 'Tarh Kardan', 'طرح  کردن '],
+['I Could', 'Tavaanestam', 'توانستم'],
+['Trumpet', 'Sheypoor', 'شیپور'],
+['Humiliation', 'Tahgheer', 'تحقیر'],
+['Forever', 'Taa Abad', 'تا ابد'],
+['Peasant', 'Rayeat', 'رعیت'],
+['Poverty', 'Faghr', 'فقر'],
+['To Crush', 'Leh Kardan', 'له کردن'],
+['Deer', 'Aahoo', 'آهو'],
+
 ];
 
 //  ['', '', ''],
