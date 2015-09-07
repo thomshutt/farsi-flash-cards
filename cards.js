@@ -1152,6 +1152,12 @@ CARDS = [
 ['Season', 'Fasl', 'فصل'],
 ['Owner', 'Saaheb', 'صاحب'],
 ['Direction', 'Jahat', 'جهت'],
+['Infamous / Shamed', 'Rasvaa', 'رسوا'],
+['Crowd / The Masses', 'Jamaa-at', 'جماعت'],
+['Pear', 'Golaabee', 'گلابی'],
+['Dragonfly', 'Sanjaaghak', 'سنجاقک'],
+['Too', 'Neez', 'نیز'],
+['Daffodil', 'Narges', 'نرگس'],
 
 ];
 
