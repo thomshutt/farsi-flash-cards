@@ -333,7 +333,7 @@ CARDS = [
 ['For This Reason', ['Be hameen daleel', 'Beh Hameen El-lat'], ['به همین دلیل', 'به همین علّت']],
 ["Meticulous / Pernickety", "Vasvaasee", "وسواسی"],
 ["In Addition", "Dar Zemn", "در ضمن"],
-['For Example', ['Masalan', 'Baraaye Mesaal', 'Baraaye Nemooneh'], ['مثلا', 'برای مثال', 'برای نمونه'],
+['For Example', ['Masalan', 'Baraaye Mesaal', 'Baraaye Nemooneh'], ['مثلا', 'برای مثال', 'برای نمونه']],
 ["Can (Drink)", "Ghootee", "قوطی"],
 ["Fizzy Drink", "Nooshaabeh", "نوشابه"],
 ["To Throw Away", "Door Andaakhtan", "دور انداختن"],
