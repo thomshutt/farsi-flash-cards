@@ -312,7 +312,7 @@ CARDS = [
 ["Rumour", "Shaaye-eh", "شایعه"],
 ["Rumours", "Shaaye-aat", "شایعات"],
 ["Family Man", "Khaanevaadeh Doost", "خانواده دوست"],
-['Now', ['Haalaa', 'Aknoon'], ['حالا', اکنون'']],
+['Now', ['Haalaa', 'Aknoon'], ['حالا','اکنون']],
 ["Charity", "Kheyreeyeh", "خیریّه"],
 ["Keeping / Looking After", "Negahdaaree", "نگهداری"],
 [["I Took", "I Won"], "Man Bordam", "من بردم"],
