@@ -233,7 +233,6 @@ CARDS = [
 ['To Wake Up',     'Beedaar Kardan', 'بیدار  کردن'],
 ['Polluted',       'Aaloodeh',       'آلوده'],
 ['Sleepy',         'Khaabaaloodeh',  'خواب آلوده'],
-['Now',            'Haalaa',         'حالا'],
 ['Skin',           'Poost',          'پوست'],
 ['Forest',         'Jangal',         'جنگل'],
 ['Interesting',    'Jaaleb',         'جالب'],
