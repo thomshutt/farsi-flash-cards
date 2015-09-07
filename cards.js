@@ -1146,6 +1146,12 @@ CARDS = [
 ['Poverty', 'Faghr', 'فقر'],
 ['To Crush', 'Leh Kardan', 'له کردن'],
 ['Deer', 'Aahoo', 'آهو'],
+['Court', 'Daadgaah', 'دادگاه'],
+['Purple', 'Banafsh', 'بنفش'],
+['Tulip', 'Laaleh', 'لاله'],
+['Season', 'Fasl', 'فصل'],
+['Owner', 'Saaheb', 'صاحب'],
+['Direction', 'Jahat', 'جهت'],
 
 ];
 
