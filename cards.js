@@ -1155,6 +1155,11 @@ CARDS = [
 ['Dragonfly', 'Sanjaaghak', 'سنجاقک'],
 ['Too', 'Neez', 'نیز'],
 ['Daffodil', 'Narges', 'نرگس'],
+['If You Don\'t Want To Be Shamed, Become The Colour Of Society', 'Khaahee Nashavee Rasvaa, Hamrang-e Jamaa-at Sho', 'خواهی نشوی رسوا همرنگ جماعت شو '],
+['Severe', 'Shadeed', 'شدید'],
+['Martyr', 'Shaheed', 'شهید'],
+['Interview', 'Mosaahebeh', 'مصاحبه'],
+['Match (Sport)', 'Mosaabegheh', 'مسابقه'],
 
 ];
 
