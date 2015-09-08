@@ -1160,6 +1160,11 @@ CARDS = [
 ['Martyr', 'Shaheed', 'شهید'],
 ['Interview', 'Mosaahebeh', 'مصاحبه'],
 ['Match (Sport)', 'Mosaabegheh', 'مسابقه'],
+['Hurry', 'Ajaleh', 'عجله'],
+['Telescope', 'Doorbeen Nejoomee', 'دوربین نجومی'],
+['Temptation', 'Vasvaseh', 'وسوسه'],
+['Primrose', 'Paamchaal', 'پامچال'],
+['Sunset', 'Ghoroob', 'غروب'],
 
 ];
 
