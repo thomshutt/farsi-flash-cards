@@ -342,6 +342,9 @@ CARDS = [
 ["How Come?", ["Chetoor Mageh?", "Chetoor Magar?"], ["چطور مگه", "چطور مگر"]],
 ["Delicious", "Lazeez", "لذیذ"],
 ["Right There", "Hamoonjaa", "همونجا"],
+["Cost / Expense", "Hazeeneh", "هزینه"],
+["In This Case / In This Way", "Beh Een Soorat", "به این صورت"],
+["To Chat", "Gap Zadan", "گپ زدن"],
 ];
 
 // ["", "", ""],
