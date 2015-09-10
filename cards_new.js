@@ -375,11 +375,15 @@ CARDS = [
 ["Luxurious", "Looks", "لوکس"],
 ["Population", "Jam'eeat", "جمعیّت"],
 ["Unnecessary", "Gheyr-e Zarooree", "غیرِ ضروری"],
+["Necessary", "Zarooree", "ضروری"],
 ["Steel", "Foolaad", "فولاد"],
 ["Labourer / Blue Collar Worker", "Kaargar", "کارگر"],
 ["(A) Generation", "Nasl", "نسل"],
 ["Relatively", "Nesbatan", "نسبتاً"],
 ["The Same", "Yeksaan", "یکسان"],
+["Quality", "Kayfeeat", "کیفیّت"],
+["Production (Manufacturing)", "Toleed", "تولید"],
+["Vehicle", "Vaseeleh-ye Naghlee-eh", "وسیلۀ نقلیّه"],
 ];
 
 // ['Fate',           'Ghesmat',        'قسمت'],
