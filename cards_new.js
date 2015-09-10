@@ -369,6 +369,17 @@ CARDS = [
 ["Treasure", "Ganj", "گنج"],
 ["(A) Cross", "Alaamat", "علامت"],
 ["(A) Shovel", "Beel", "بیل"],
+["Car", "Khodro", "خودرو"],
+["All Over (A Place)", "Saraasar", "سراسر"],
+["Powerful", "Por Ghodrat", "پُر قدرت"],
+["Luxurious", "Looks", "لوکس"],
+["Population", "Jam'eeat", "جمعیّت"],
+["Unnecessary", "Gheyr-e Zarooree", "غیرِ ضروری"],
+["Steel", "Foolaad", "فولاد"],
+["Labourer / Blue Collar Worker", "Kaargar", "کارگر"],
+["(A) Generation", "Nasl", "نسل"],
+["Relatively", "Nesbatan", "نسبتاً"],
+["The Same", "Yeksaan", "یکسان"],
 ];
 
 // ['Fate',           'Ghesmat',        'قسمت'],
