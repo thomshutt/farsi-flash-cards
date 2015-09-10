@@ -1160,6 +1160,20 @@ CARDS = [
 ['Temptation', 'Vasvaseh', 'وسوسه'],
 ['Primrose', 'Paamchaal', 'پامچال'],
 ['Sunset', 'Ghoroob', 'غروب'],
+['Prostitute', 'Faahesheh', 'فاحشه'],
+['Criterion', 'Melaak', 'ملاک'],
+['Slow', ['Kond', 'Yavaash', 'Aahesteh'], ['کند', 'یواش', 'اهسته']],
+['Outcome', 'Payaamad', 'پیامد'],
+['Result', 'Nateejeh', 'نتیجه'],
+['Single (Relationship)', 'Mojarad', 'مجرد'],
+['Musical Instrument', 'Saaz', 'ساز'],
+["Maybe / Probably", "Shaayad", "شاید"],
+['To See Someone Off', 'Badragheh Kardan', 'بدرقه کردن'],
+['Answer', ['Paasokh', 'Javaab'], ['پاسخ', 'جواب']],
+['Dice', 'Taas', 'تاس'],
+['(Ice Cream) Cone', 'Gheef', 'قیف'],
+['Silk', 'Abreesham', 'ابریشم'],
+['Feather', 'Par', 'پر'],
 
 ];
 
