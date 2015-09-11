@@ -22,7 +22,6 @@ CARDS = [
 ['T-Shirt',        'T-Shirt',        'تی شرت'],
 ['Jewellery',      'Javaaher',       'جواهر'],
 ['Mouth',          'Dahan',          'دهان'],
-['Face',           'Soorat',         'صورت'],
 ['Hair',           'Moo',            'مو'],
 ['Eye',            'Cheshm',         'چشم'],
 ['Window',         'Panjareh',       'پنجره'],

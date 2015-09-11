@@ -1,4 +1,5 @@
 CARDS = [
+['Face', ['Soorat', 'Chehreh'], ['صورت', 'چهره']],
 ['Usually', 'Mamoolan', 'معمولا'],
 ['Award / Prize', 'Jaayezeh', 'جایزه'],
 ['Social', 'Ejtamaayee', 'اجتماعی'],
@@ -382,11 +383,18 @@ CARDS = [
 ["Dentist", "Dandaan Pezeshkee", "دندان پزشکی"],
 ["My Studies", "Tahseelam", "تحصیلم"],
 ["Relatives", "Aghvaam", "اقوام"],
-["Elderly", ["Saalmand", "Mosen"], ["سالمند", "مسن"],
+["Elderly", ["Saalmand", "Mosen"], ["سالمند", "مسن"]],
 ["To Take Care Of", "Negahdaaree Kardan", "نگهداری کردن"],
 ['Individuals', 'Afraad', 'افراد'],
 ["Loser", "Baazandeh", "بازنده"],
 ["Subject (Studying)", "Reshteh", "رشته"],
+["Rates (Of)", "Meezaan(e)", "میزان"],
+["Cosmetic Surgery", "Jarraahee-ye Zeebaaee", "جرّاحیِ زیبایی"],
+["Statistics", "Aamaar", "آمار"],
+["Depressed", "Afsordeh", "افسرده"],
+["To Remove", "Bar Taraf Kardan", "برطرف کردن"],
+["In What Respect", "Az Cheh Nazar?", "از چه نظر؟"],
+["Plastic Surgery", "Jarraahee-ye Pelaasteek", "جرّاحیِ پلاستیک"],
 ];
 
 // ['Fate',           'Ghesmat',        'قسمت'],
