@@ -628,7 +628,6 @@ CARDS = [
 ['Elf', 'Vooroojak', 'وروجک'],
 ['Tiny', 'Fesghelee', 'فسقلی'],
 ['Map', 'Naghsheh', 'نقشه'],
-['Individuals', 'Afraad', 'افراد'],
 ['Scenery', 'Manzareh', 'منظره'],
 ['Steering Wheel', 'Farmaan', 'فرمان'],
 ['Cape', 'Shenel', 'شنل'],
