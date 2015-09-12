@@ -1178,6 +1178,11 @@ CARDS = [
 ['Seashell', 'Sadaf', 'صدف'],
 ['Pile', 'Toodeh', 'توده'],
 ['Crime', 'Jorm', 'جرم'],
+['Usually', 'Mamoolan', 'معمولا'],
+['Exam', 'Emtehaan', 'امتحان'],
+['Device', 'Vaseeleh', 'وسیله'],
+['Passport', 'Gozarnaameh', 'گذرنامه'],
+['Close It (Command)', 'Beband', 'ببند'],
 
 ];
 
