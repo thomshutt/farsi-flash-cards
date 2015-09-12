@@ -1075,7 +1075,6 @@ CARDS = [
 ['I Am Standing', 'Mee-eestam', 'می ایستم  '],
 ['I Am Waiting', 'Montazer Hastam', 'منتظر هستم'],
 ['Button (Clothes & Pushable)', 'Dokmah', 'دکمه'],
-['Pressure', 'Feshaar', 'فشار'],
 ['How (Formal)', 'Chegooneh', 'چگونه'],
 ['I Started', 'Aaghaaz Kardam', 'آغاز کردم'],
 ['I Am Starting', 'Aaghaaz Meekonam', 'آغاز می کنم'],
@@ -1183,6 +1182,14 @@ CARDS = [
 ['Device', 'Vaseeleh', 'وسیله'],
 ['Passport', 'Gozarnaameh', 'گذرنامه'],
 ['Close It (Command)', 'Beband', 'ببند'],
+['Topic', 'Mozooh', 'موضوع'],
+['Roof', 'Baam', 'بام'],
+['Calmly', 'Baa Khoonsardee', 'با خونسردی'],
+['Bath', 'Vaan', 'وان'],
+['Respectable', 'Mohtaram', 'محترم'],
+['Doorman', 'Darbaan', 'دربان'],
+['I Hear', 'Man Meeshnavam', 'من می شنوم'],
+['Officer', 'Mamoor', 'مامور'],
 
 ];
 
