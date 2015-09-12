@@ -861,7 +861,6 @@ CARDS = [
 ['Loose', 'Goshaad', 'گشاد'],
 ['In Two Minds', 'Too Do Delam', 'تو دو دل'],
 ['Useful', 'Mofeed', 'مفید'],
-['Roof', 'Baam', 'بام'],
 ['Greenhouse', 'Golkhaaneh', 'گلخانه'],
 ['Alcove', 'Taaghcheh', 'تاقچه'],
 ['Stop It!', 'Bas Kon', 'بس کن'],
@@ -1172,6 +1171,13 @@ CARDS = [
 ['(Ice Cream) Cone', 'Gheef', 'قیف'],
 ['Silk', 'Abreesham', 'ابریشم'],
 ['Feather', 'Par', 'پر'],
+['Hanging', 'Aaveezaan', 'آویزان'],
+['Unaware', 'Ghaafel', 'غافل'],
+['Horizontal', 'Ofoghee', 'افقی'],
+['Vertical', 'Omoodee', 'عمودی'],
+['Seashell', 'Sadaf', 'صدف'],
+['Pile', 'Toodeh', 'توده'],
+['Crime', 'Jorm', 'جرم'],
 
 ];
 
