@@ -1190,6 +1190,15 @@ CARDS = [
 ['Doorman', 'Darbaan', 'دربان'],
 ['I Hear', 'Man Meeshnavam', 'من می شنوم'],
 ['Officer', 'Mamoor', 'مامور'],
+['Handkerchief', 'Dastmaal', 'دستمال'],
+['Penetrating Look', 'Negaahe Naafez', 'نگاه نافذ'],
+['President', 'Rayees-e Jomhoor', 'رئیس جمهور'],
+['Recently', 'Taazehgee', 'تازهگی'],
+['House', ['Khaane', 'Manzel'], ['خانه', 'منزل']],
+['Pressure', 'Feshaar', 'فشار'],
+['Buggy', 'Kaaleskeh', 'کالسکه'],
+['Appetite', 'Eshtehaa', 'اشتها'],
+['Shaky', 'Larzaan', 'لرزان'],
 
 ];
 
