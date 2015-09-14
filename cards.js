@@ -1199,6 +1199,19 @@ CARDS = [
 ['Buggy', 'Kaaleskeh', 'کالسکه'],
 ['Appetite', 'Eshtehaa', 'اشتها'],
 ['Shaky', 'Larzaan', 'لرزان'],
+['(One\'s) Honor', 'Sheraafat', 'شرافت'],
+['Biting', 'Gaaz Gereftan', 'گاز گرفتن'],
+['Face', ['Soorat', 'Chehreh'], ['صورت', 'چهره']],
+['Oven', 'Ojaagh', 'اجاق'],
+['Huge / Great', 'Azeem', 'عظیم'],
+['Exaggeration', 'Eghraagh', 'اغراق'],
+['Farm', 'Mazraeh', 'مزرعه'],
+['A Wish / Dream', 'Aarzoo', 'آرزو'],
+["To Be Amazed / Surprised", "Ta'job Kardan", "تعجّب کردن"],
+['Award / Prize', 'Jaayezeh', 'جایزه'],
+['Social', 'Ejtamaayee', 'اجتماعی'],
+['(A) Show', 'Nemaayesh', 'نمایش'],
+['Astronaut', 'Fazaanavard', 'فضانورد'],
 
 ];
 
