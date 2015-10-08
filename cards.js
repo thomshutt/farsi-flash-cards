@@ -1207,6 +1207,7 @@ CARDS = [
 ['Able', 'Ghaabel', 'قابل'],
 ['(A) Doubt', 'Shak', 'شک'],
 ['Physique', 'Haykal', 'هیکل'],
+['Politics', 'Seeaasat Baazee', 'سیاست بازی'],
 
 ];
 
