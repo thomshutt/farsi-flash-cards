@@ -1,6 +1,6 @@
 CARDS = [
 ["Cost / Expense", "Hazeeneh", "هزینه"],
-["Expensive", "Por Hazeeneh", "پرهزینه"],
+["Expensive", ["Por Hazeeneh", "Geraan"], ["پرهزینه", "گران"]],
 ["Exciting", "Mohayyej", "مهیّج"],
 ['To Move (Around)', 'Takoon Khordan', 'تکون خوردن'],
 ['Humiliation', 'Tahgheer', 'تحقیر'],
@@ -19,7 +19,6 @@ CARDS = [
 ['Physique', 'Haykal', 'هیکل'],
 ['I Am Feeling', 'Ehsaas Meekonam', 'احساس میکنم'],
 ['(A) Doubt', 'Shak', 'شک'],
-['To Forget', 'Faraamoosh Kardan', 'فراموش کردن'],
 ['Reluctantly', 'Baa Ekraah', 'با اکراه'],
 ['Community', 'Anjoman', 'انجمن'],
 ['False', 'Ghalat', 'غلط'],
