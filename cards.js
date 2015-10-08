@@ -1202,6 +1202,11 @@ CARDS = [
 ['(A) Show', 'Nemaayesh', 'نمایش'],
 ['Astronaut', 'Fazaanavard', 'فضانورد'],
 ['To Forget', 'Faraamoosh Kardan', 'فراموش کردن'],
+['To Attack', 'Hamleh Kardan', 'حمله کردن'],
+['Bedsheet', 'Malaafeh', 'ملافه'],
+['Able', 'Ghaabel', 'قابل'],
+['(A) Doubt', 'Shak', 'شک'],
+['Physique', 'Haykal', 'هیکل'],
 
 ];
 
