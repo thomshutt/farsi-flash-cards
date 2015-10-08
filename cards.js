@@ -1201,6 +1201,7 @@ CARDS = [
 ['Social', 'Ejtamaayee', 'اجتماعی'],
 ['(A) Show', 'Nemaayesh', 'نمایش'],
 ['Astronaut', 'Fazaanavard', 'فضانورد'],
+['To Forget', 'Faraamoosh Kardan', 'فراموش کردن'],
 
 ];
 
