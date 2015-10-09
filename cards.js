@@ -1208,6 +1208,15 @@ CARDS = [
 ['(A) Doubt', 'Shak', 'شک'],
 ['Physique', 'Haykal', 'هیکل'],
 ['Politics', 'Seeaasat Baazee', 'سیاست بازی'],
+['(A) Time', 'Gaah', 'گاه'],
+['Bundle', 'Boghcheh', 'بقچه'],
+['Rust', 'Zang', 'زنگ'],
+['Ink', 'Johar', 'جوهر'],
+['A Wish / Dream', 'Aarezoo', 'آرزو'],
+['Community', 'Anjoman', 'انجمن'],
+['False', 'Ghalat', 'غلط'],
+['Harmful', 'Mozer', 'مضر'],
+['Opinion', 'Agheedeh', 'عقیده'],
 
 ];
 
