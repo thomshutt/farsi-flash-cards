@@ -51,17 +51,28 @@
     }
 
     var toggleCards = function toggleCards(){
-      STATE === 'QUESTION' ? revealAnswer() : chooseCard();
+      STATE === 'QUESTION' || STATE === 'QUESTION_NUMBER' ? revealAnswer() : chooseCard();
     }
   
     var chooseCard = function chooseCard(){
+      $$('question').style.display = 'block'
+      $$('answer').style.display = 'none'
+      document.body.style.background = '#111111'
+
+      if(Math.random() > 0.7) {
+        return chooseNumberCard();
+      }
+
       STATE = 'QUESTION'; 
       CURRENT_CARD = getOrderedCardIndex(); 
       var startLanguage = chooseStartLanguage();
       $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
-      $$('question').style.display = 'block'
-      $$('answer').style.display = 'none'
-      document.body.style.background = '#111111'
+    }
+
+    var chooseNumberCard = function chooseNumberCard() {
+      STATE = 'QUESTION_NUMBER'; 
+      CURRENT_CARD = '' + Math.floor(Math.random() * 10000)
+      $$('question1').innerHTML = convertNumberToFarsi(CURRENT_CARD); 
     }
 
     var chooseStartLanguage = function chooseStartLanguage(){
@@ -69,14 +80,48 @@
        return possibleLanguages[Math.floor(Math.random() * possibleLanguages.length)];
     }
 
+    var convertNumberToFarsi = function convertNumberToFarsi(numberString) {
+      if(numberString === '') {
+        return '';
+      }
+ 
+      var numToConvert = numberString.charAt(0);
+      return romanNumberToFarsi[numToConvert] + convertNumberToFarsi(numberString.substring(1,numberString.length));
+    }
+
+    var romanNumberToFarsi = {
+      '0' : '۰',
+      '1' : '۱',
+      '2' : '۲',
+      '3' : '۳',
+      '4' : '۴',
+      '5' : '۵',
+      '6' : '۶',
+      '7' : '۷',
+      '8' : '۸',
+      '9' : '۹',
+    };
+
     var revealAnswer = function revealAnswer(){
+      $$('question').style.display = 'none'
+      $$('answer').style.display = 'block'
+      document.body.style.background = '#123424'
+
+      if(STATE === 'QUESTION_NUMBER') {
+        return revealNumberAnswer();
+      }
+
       STATE = 'ANSWER'
       $$('answer1').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][0])
       $$('answer2').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][1])
       $$('answer3').innerHTML = getAllPossibleValues(CARDS[CURRENT_CARD][2])
-      $$('question').style.display = 'none'
-      $$('answer').style.display = 'block'
-      document.body.style.background = '#123424'
+    }
+
+    var revealNumberAnswer = function revealNumberAnswer() {
+      STATE = 'ANSWER_NUMBER'
+      $$('answer1').innerHTML = '' + CURRENT_CARD;
+      $$('answer2').innerHTML = '';
+      $$('answer3').innerHTML = '' + CURRENT_CARD;
     }
 
     var getAllPossibleValues = function getAllPossibleValues(elementOrArray){
