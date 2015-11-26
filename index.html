@@ -193,6 +193,7 @@
     var checkLoad = function() {   
       if($$('answer3')){
         document.body.onclick = toggleCards;
+        document.body.ontouchend = toggleCards;
         window.addEventListener("keyup", toggleCards, false);
         chooseCard();
         alert("Total Cards: " + CARDS.length);
