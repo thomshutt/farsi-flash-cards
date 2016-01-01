@@ -256,7 +256,6 @@ CARDS = [
 ['To Smoke',       'Dood Kardan',    'دود کردن'],
 ['Spider',         'Ankaboot',       'عنکبوت'],
 ['Saliva',         'Bozagh',         'بزاق'],
-['Pillow',         'Baalesh',        'بالش'],
 ['Duvet',          'Lahaaf',         'لحاف'],
 ['Sky',            'Aasemaan',       'آسمان'],
 ['Against',        'Aley-he',        'علیه'],
@@ -1044,7 +1043,6 @@ CARDS = [
 ['Tasteless / Boring', 'Beemazeh', 'بیمزه'],
 ['Debtor', 'Bedehkaar', 'بدهکار'],
 ['Cottage', 'Kolbeh', 'کلبه'],
-['Field', 'Keshtzaar', 'کشتزار'],
 ['To Cultivate', 'Kesht Kardan', 'کشت کردن'],
 ['To Be Paid', 'Dastmozd Gereftan', 'دستمزد گرفتن'],
 ['To Feel', 'Hes Kardan', 'حس کردن'],
@@ -1217,7 +1215,6 @@ CARDS = [
 ['False', 'Ghalat', 'غلط'],
 ['Harmful', 'Mozer', 'مضر'],
 ['Opinion', 'Agheedeh', 'عقیده'],
-
 ];
 
 //  ['', '', ''],
