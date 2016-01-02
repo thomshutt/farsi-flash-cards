@@ -37,6 +37,7 @@ CARDS = [
 ['Uniform', 'Roopoosh', 'روپوش'],
 ['Doormat', 'Paadaree', 'پادری'],
 ['Postage Stamp', 'Tamr Postee', 'تمبر پستی'],
+['Village', ['Roostaa', 'Dehaat', 'Dehkadeh'], ['روستا', 'دهات', 'دهکده']],
 ['Rib', 'Dandeh', 'دنده'],
 ['Hall', 'Haal', 'هال'],
 ['Useless', 'Beefaaydeh', 'بیفایده'],
@@ -440,6 +441,10 @@ CARDS = [
 ["Side / Flank", "Pahloo", "پهلو"],
 ["Permission", "Ejaazeh", "اجازه"],
 ["Plain (Field)", "Dasht", "دشت"],
+["Dew", "Shabnam", "شبنم"],
+["Grass", "Alaf", "الف"],
+["Bushel", "Booteh", "بوته"],
+["To Endure / Withstand", "Taaghat Kardan", "طاقت کردن"],
 ];
 
 // ['Fate',           'Ghesmat',        'قسمت'],
