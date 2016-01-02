@@ -988,7 +988,6 @@ CARDS = [
 ['I Am Washing', 'Meeshooram', 'می شورم'],
 ['Materialistic', 'Maadeegaree', 'مادیگری'],
 ['Fever', 'Tab', 'تب'],
-['Village', ['Roostaa', 'Dehaat'], ['روستا', 'دهات']],
 ['Prevalent', 'Raayej', 'رایج'],
 ['Valuable', 'Baa Arzesh', 'با ارزش'],
 ['Rich (In)', 'Ghanee', 'غنی'],
