@@ -3,6 +3,7 @@ CARDS = [
 ["Camel", "Shotor", "شتر"],
 ["Quality", "Kayfeeat", "کیفیّت"],
 ["To Haggle", "Chaaneh Zadan", "چانه زدن"],
+["Tax", "Maaleeaat", "مالیات"],
 ['Glass (Material)', 'Sheesheh', 'شیشه'],
 ["Products / Goods", "Ajnaas", "اجناس"],
 ["(On) Sale", "Haraaj", "حراج"],
@@ -459,6 +460,10 @@ CARDS = [
 ["Fault", "Taghseer", "تقصیر"],
 ["It Wasn't My Fault", "Taghseeram Nabood", "تقصیرم نبود"],
 ["Performance", "Anjaam?", "انجام"],
+["Horse Ride", "Asb Savaaree", "اسب سواری"],
+["Stadium", "Varzeshgaah", "ورزشگاه"],
+["Nucleus", "Hasteh", "هسته"],
+["Gym / Club", "Baashgaah", "باشگاه"],
 ];
 
 // ['Fate',           'Ghesmat',        'قسمت'],
