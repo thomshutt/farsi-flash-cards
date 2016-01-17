@@ -1214,6 +1214,13 @@ CARDS = [
 ['False', 'Ghalat', 'غلط'],
 ['Harmful', 'Mozer', 'مضر'],
 ['Opinion', 'Agheedeh', 'عقیده'],
+['To Pour', 'Reekhtan', 'ریختن'],
+['Hapless', 'Beechaareh', 'بیچاره'],
+['Ironing', 'Aatoo Keshee', 'اتو کشی'],
+["Curly", "Ferferee", "فرفری"],
+['World', ['Aalam', 'Donyaa', 'Jahaan'], ['عالم', 'دنیا', 'جهان']],
+['I Am Feeling', 'Ehsaas Meekonam', 'احساس می کنم'],
+['Frown', 'Akhm', 'اخم'],
 ];
 
 //  ['', '', ''],
