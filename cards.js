@@ -602,7 +602,6 @@ CARDS = [
 ['Chemical', 'Sheemeeaaee', 'شیمیایی'],
 ['I Heard', 'Sheneedam', 'شنیدم'],
 ['Bomb', 'Bom-b', 'بمب'],
-['Explosion', 'Aanfejaar', 'انفجار'],
 ['Crowded', 'Sholoogh', 'شلوغ'],
 ['Sneakily', 'Yavaashakee', 'یواشکی'],
 ['Mistake', 'Eshtebaah', 'اشتباه'],

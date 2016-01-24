@@ -5,6 +5,7 @@ CARDS = [
 ["To Haggle", "Chaaneh Zadan", "چانه زدن"],
 ["Tax", "Maaleeaat", "مالیات"],
 ['Glass (Material)', 'Sheesheh', 'شیشه'],
+['Explosion', 'Enfejaar', 'انفجار'],
 ["Products / Goods", "Ajnaas", "اجناس"],
 ["(On) Sale", "Haraaj", "حراج"],
 ["Generally / On The Whole", "Beh Toor-e Kollee", "به طور کلی"],
