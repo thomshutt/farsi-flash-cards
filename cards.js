@@ -1220,6 +1220,10 @@ CARDS = [
 ['World', ['Aalam', 'Donyaa', 'Jahaan'], ['عالم', 'دنیا', 'جهان']],
 ['I Am Feeling', 'Ehsaas Meekonam', 'احساس می کنم'],
 ['Frown', 'Akhm', 'اخم'],
+['Humiliation', 'Tahgheer', 'تحقیر'],
+['Trust', 'Etemaad', 'اعتماد'],
+['Stature', 'Ghaamat', 'قامت'],
+["Sissy / Spoiled Brat", "Soosool", "سوسول"],
 ];
 
 //  ['', '', ''],
