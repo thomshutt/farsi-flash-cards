@@ -154,7 +154,6 @@ CARDS = [
 ['Drinking',       'Noosheedan',     'نوشیدن'],
 ['Empty',          'Khaalee',        'خالی'],
 ['Full',           'Por',            'پر'],
-['Rich',           'Servatmand',     'ثروتمند'],
 ['Poor',           'Fagheer',        'فقیر'],
 ['Donkey',         'Khar',           'خر'],
 ['Ugly',           'Zesht',          'زشت'],
@@ -1224,6 +1223,8 @@ CARDS = [
 ['Trust', 'Etemaad', 'اعتماد'],
 ['Stature', 'Ghaamat', 'قامت'],
 ["Sissy / Spoiled Brat", "Soosool", "سوسول"],
+['To Provide', 'Faraaham Kardan', 'فراهم کردن'],
+['To Wipe', 'Paak Kardan', 'پاک کردن'],
 ];
 
 //  ['', '', ''],
