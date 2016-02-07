@@ -1230,6 +1230,9 @@ CARDS = [
 ["To Haggle", "Chaaneh Zadan", "چانه زدن"],
 ['Explosion', 'Enfejaar', 'انفجار'],
 ["Taste / Style", "Saleegheh", "سلیقه"],
+["Shut Up", "Khafeh Sho", "خفه شو"],
+['Glass (Material)', 'Sheesheh', 'شیشه'],
+["200", "Deveest", "دویست"],
 ];
 
 //  ['', '', ''],
