@@ -1225,6 +1225,11 @@ CARDS = [
 ["Sissy / Spoiled Brat", "Soosool", "سوسول"],
 ['To Provide', 'Faraaham Kardan', 'فراهم کردن'],
 ['To Wipe', 'Paak Kardan', 'پاک کردن'],
+["Camel", "Shotor", "شتر"],
+["Quality", "Kayfeeat", "کیفیّت"],
+["To Haggle", "Chaaneh Zadan", "چانه زدن"],
+['Explosion', 'Enfejaar', 'انفجار'],
+["Taste / Style", "Saleegheh", "سلیقه"],
 ];
 
 //  ['', '', ''],
