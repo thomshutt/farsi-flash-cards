@@ -818,7 +818,6 @@ CARDS = [
 ['Ruler (Drawing)', 'Khatkesh', 'خط کش'],
 ['Turnip', 'Shalgham', 'شلغم'],
 ['Schedule', 'Barnaameh', 'برنامه'],
-['Throat', 'Goloo', 'گلو'],
 ['Lipstick', 'Maateek', 'ماتیک'],
 ['(A) Sail', 'Baadbaan', 'بادبان'],
 ['Blanket', 'Patoo', 'پتو'],
@@ -1233,6 +1232,7 @@ CARDS = [
 ["Shut Up", "Khafeh Sho", "خفه شو"],
 ['Glass (Material)', 'Sheesheh', 'شیشه'],
 ["200", "Deveest", "دویست"],
+["Generally / On The Whole", "Beh Toor-e Kollee", "به طور کلی"],
 ];
 
 //  ['', '', ''],
