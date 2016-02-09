@@ -1233,6 +1233,16 @@ CARDS = [
 ['Glass (Material)', 'Sheesheh', 'شیشه'],
 ["200", "Deveest", "دویست"],
 ["Generally / On The Whole", "Beh Toor-e Kollee", "به طور کلی"],
+['Lettuce', 'Kaahoo', 'کاهو'],
+['Inevitably', 'Beh Naachaar', 'به ناچار'],
+["(On) Sale", "Haraaj", "حراج"],
+['Ass (Donkey)', 'Olaagh', 'الاغ'],
+['To Move (Around)', 'Takoon Khordan', 'تکون خوردن'],
+['Beggar', 'Gedaa', 'گدا'],
+['To Die', 'Fot Kardan', 'فوت کردن'],
+['Throat', 'Galoo', 'گلو'],
+['I Was Hospitalised', 'Bastari Shodam', 'بستری شدم'],
+['Field', 'Keshtzaar', 'کشتزار'],
 ];
 
 //  ['', '', ''],
