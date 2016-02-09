@@ -484,6 +484,12 @@ CARDS = [
 ["Thigh", "Raan", "ران"],
 ["Snotty Kid", "Bacche Damaaghoo", "بچه دماغو"],
 ["Do You Want To Die?", "Az Joonet Seer Shodee?", "از جونت سیر شدی؟"],
+["Stimulating", "Tahreek", "تحریک "],
+["A Little Bit", "Yeh Zareh", "یه ذره"],
+["Damned / Goddamn", "La'natee", "لعنتی"],
+["(A) Complex", "Oghdeh", "عقده"],
+["Difference / Disagreement", "Ekhtelaaf", "اختلاف"],
+["", "", ""],
 ["", "", ""],
 ];
 
