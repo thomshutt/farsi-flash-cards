@@ -1243,6 +1243,15 @@ CARDS = [
 ['Throat', 'Galoo', 'گلو'],
 ['I Was Hospitalised', 'Bastari Shodam', 'بستری شدم'],
 ['Field', 'Keshtzaar', 'کشتزار'],
+["300", "Seesad", "سیصد"],
+["Most Of The Time", "Beeshtar-e Vaghthaa", "بیشتر وقتها"],
+["Foodstuffs", "Mavaad-e Ghazaaee", "مواد غذای"],
+["90", "Navad", "نود"],
+["60", "Shast", "شصت"],
+["50", "Panjaah", "پنجاه"],
+["70", "Haftaad", "هفتاد"],
+["80", "Hashtaad", "هشتاد"],
+["500", "Paansad", "پانصد"],
 ];
 
 //  ['', '', ''],
