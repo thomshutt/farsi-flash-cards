@@ -933,7 +933,6 @@ CARDS = [
 ['Twins', 'Dogholoo', 'دوقلو'],
 ['Is Situated', 'Gharaar Daarad', 'قرار دارد'],
 ['Cool / Lively / Spirited', 'Baahaal', 'باحال'],
-['Evidence / Proof / Uni Degree', 'Madrak', 'مدرک'],
 ['Gambler', 'Ghomaar Baaz', 'قمار باز'],
 ['Womaniser', 'Zan Baaz', 'زن باز'],
 ['Handicrafts', 'Sanaayeh Dastee', 'صنایع دستی'],
