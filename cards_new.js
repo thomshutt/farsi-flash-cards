@@ -6,7 +6,7 @@ CARDS = [
 ['Propaganda', 'Tableeghaat', 'تبلیغات'],
 ['Rich', ['Servatmand', 'Maayehdaar'], ['ثروتمند', 'مایه دار']],
 ["Products / Goods", "Ajnaas", "اجناس"],
-["Exciting", "Mohayyej", "مهیّج"],
+["Exciting", "Hayejaan Angeez", "هیجان انگیز"],
 ['Castle', 'Ghal\'eh', 'قلعه'],
 ['Reluctantly', 'Baa Ekraah', 'با اکراه'],
 ['Caution', 'Ehteeaat', 'احتیاط'],
