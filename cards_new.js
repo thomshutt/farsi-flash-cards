@@ -1,5 +1,6 @@
 CARDS = [
 ['Document / Evidence', 'Madrak', 'مدرک'],
+["Two Hearts Together", "Del Beh Del Raah Daareh", "دل به دل راه داره "],
 ['Faith', 'Eemaan', 'ایمان'],
 ['(A) Talent', 'Estedaad', 'استعداد'],
 ["Chivalrous", "Javaanmard", "جوانمرد"],
@@ -11,6 +12,8 @@ CARDS = [
 ['Castle', 'Ghal\'eh', 'قلعه'],
 ['Reluctantly', 'Baa Ekraah', 'با اکراه'],
 ['Caution', 'Ehteeaat', 'احتیاط'],
+["Funeral", "Maraasem-e Khatm", "مراسم ختم"],
+["I Participated In", "Dar ... Sherkat Kardam", "در .... شرکت کردم"],
 ["Expensive", ["Por Hazeeneh", "Geraan"], ["پرهزینه", "گران"]],
 ['Harmless', 'Beeaazaar', 'بیازار'],
 ['(A) Label', 'Eteeket', 'اتیکت'],
@@ -489,6 +492,7 @@ CARDS = [
 ["Woolen", "Pashmee", "پشمی"],
 ["Partner In Crime", "Shareek-e Jorm", "شریک جرم"],
 ["To Question / Interrogate", "Baazkhaast Kardan", "بازخواست کردن"],
+["", "", ""],
 ["", "", ""],
 ["", "", ""],
 ];
