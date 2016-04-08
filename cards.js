@@ -1288,6 +1288,18 @@ CARDS = [
 ['Sweetcorn', 'Zor-rat', 'ذرت'],
 ['Revenge', 'Enteghaam', 'انتقام'],
 ['I Hate', 'Motnaferam', 'متنفرم'],
+['(A) Talent', 'Estedaad', 'استعداد'],
+['Propaganda / Advertising', 'Tableeghaat', 'تبلیغات'],
+["Exciting", "Hayejaan Angeez", "هیجان انگیز"],
+['Cabinet', 'Ghafaseh', 'قفسه'],
+["Close / Comfortable / Intimate", "Khodemoonee", "خودمونی"],
+['Village', ['Roostaa', 'Dehaat', 'Dehkadeh'], ['روستا', 'دهات', 'دهکده']],
+['Cage', 'Ghafas', 'قفس'],
+['Big Circular Drum', 'Daf', 'دف'],
+['Lock (Key)', 'Ghofl', 'قفل'],
+['Heater', 'Bokhaaree', 'بخاری'],
+['Sofa', ['Mobl', 'Kaanaapeh'], ['مبل', 'کاناپه']],
+['Island', 'Jazeereh', 'جزیره'],
 ];
 
 //  ['', '', ''],
