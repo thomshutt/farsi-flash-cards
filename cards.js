@@ -1275,7 +1275,6 @@ CARDS = [
 ['Heel', 'Paashneh', 'پاشنه'],
 ['Whole (Of)', 'Kol', 'کل'],
 ['(A) Label', 'Eteeket', 'اتیکت'],
-["Ass-Kisser", "Chaaploos", "چاپلوس"],
 ['Postage Stamp', 'Tamr Postee', 'تمبر پستی'],
 ['Rib', 'Dandeh', 'دنده'],
 ["Chivalrous", "Javaanmard", "جوانمرد"],
