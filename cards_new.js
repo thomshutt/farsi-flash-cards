@@ -1,6 +1,7 @@
 CARDS = [
 ['Allergy', 'Hasaaseet', 'حساسیت'],
 ['Immediately', ['Foree', 'Belaafaaseleh'], ['فوری', 'بلافاصله']],
+['Road', ['Jaaddeh', 'Kheeaabaan'], ['جاده', 'خیابان']],
 ['Weapon', 'Aslaheh', 'اسلحه'],
 ['Witch', 'Saahereh', 'ساحره'],
 ["Ass-Kisser", ["Chaaploos", "Khaayemaal"], ["چاپلوس", "خایمال"]],

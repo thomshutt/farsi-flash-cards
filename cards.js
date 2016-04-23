@@ -964,7 +964,6 @@ CARDS = [
 ['Cleric', 'Aakhoond', 'آخوند'],
 ['Tattoo', 'Khaal Koobee', 'خال کوبی'],
 ['Forecast', 'Peesh Beenee', 'پیش بینی'],
-['Road', ['Jaaddeh', 'Kheeaabaan'], ['جاده', 'خیابان']],
 ['Jesus', 'Eesaa', 'عیسی'],
 ['Fish Bowl', 'Tong-e Maahee', 'تنگ ماهی'],
 [['Sequin', 'Fish Scale'], 'Poolak', 'پولک'],
