@@ -486,7 +486,7 @@ CARDS = [
 ["Innovative / Creative", "Khalaagh", "خلاق"],
 ["To Queue", "Saf Eestaadan", "صف ایستادن"],
 ["Solitude (Opposite Of Crowded)", "Khalvat", "خلوت"],
-["", "", ""],
+["Praise", "Ta'reef", "تعریف"],
 ["", "", ""],
 ["", "", ""],
 ];
