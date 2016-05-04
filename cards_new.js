@@ -9,6 +9,7 @@ CARDS = [
 ["Therefore", "Banaabar", "بنابر"],
 ["Gone With The Wind (Wasted)", "Bar Baad Rafteh Ast", "بر باد رفته است"],
 ["(A) Speech", "Sokhan", "سخن"],
+["Notebook", "Daftar", "دفتر"],
 ["Grammar", "Dastoor-e Zabaan", "دستور زبان"],
 ['Road', ['Jaaddeh', 'Kheeaabaan'], ['جاده', 'خیابان']],
 ['Weapon', 'Aslaheh', 'اسلحه'],
@@ -487,7 +488,6 @@ CARDS = [
 ["To Queue", "Saf Eestaadan", "صف ایستادن"],
 ["Solitude (Opposite Of Crowded)", "Khalvat", "خلوت"],
 ["Praise", "Ta'reef", "تعریف"],
-["", "", ""],
 ["", "", ""],
 ];
 
