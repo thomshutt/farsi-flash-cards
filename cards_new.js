@@ -513,7 +513,7 @@ CARDS = [
 ["To Touch", "Dast Zadan", "دست زدن"],
 ["Helpless", "Darmaandeh", "درمانده"],
 ["Treatment", "Darmaan", "درمان"],
-["", "", ""],
+["To Bristle / Stand On End", "Seekh Shodan", "سیخ شدن"],
 ["", "", ""],
 ];
 
