@@ -1335,6 +1335,10 @@ CARDS = [
 ['Christian', 'Maseehee', 'مسیحی`'],
 ['Sentence', 'Jomleh', 'جمله'],
 ['I Had', 'Daashtam', 'داشتم'],
+['Fan / Supporter', ['Tarafdaar', 'Havaadaar'], ['طرفدار', 'هوادار']],
+["Notebook", "Daftar", "دفتر"],
+['Nest', 'Laaneh', 'لانه'],
+["Weight", "Vazan", "وزن"],
 ];
 
 //  ['', '', ''],
