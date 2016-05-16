@@ -1,4 +1,6 @@
 CARDS = [
+["Vulture", "Karkas", "کرکس"],
+["Corpse", "Jasad", "جسد"],
 ["Psychologist", "Ravaanshenaas", "روانشناس"],
 [["Escaped", "Disjointed"], "Dar Rafteh", "در رفته"],
 ["Greed", "Her-s", "حرص"],
@@ -517,8 +519,6 @@ CARDS = [
 ["To Bristle / Stand On End", "Seekh Shodan", "سیخ شدن"],
 ["(A) Reconciliation / Making Up", "Aashtee", "آشتی"],
 ["In The End", "Dar Paayaan", "در پایان"],
-["", "", ""],
-["", "", ""],
 ["", "", ""],
 ["", "", ""],
 ["", "", ""],
