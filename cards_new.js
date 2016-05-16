@@ -535,7 +535,7 @@ CARDS = [
 ['(A) Type', ['Joor', 'Gooneh'], ['جور', 'گونه']],
 ["To Some Extent / Somewhat", "Ghadree", "قدری"],
 ["Rest In Peace", "Khodaa Beeaamorzeh", "خدا بیامرزه"],
-["", "", ""],
+["Something Good Turned Bad", "Aroos-e Ta'reefee Goozoo Dar Aamad", "عروس تعریفی گوزو در آمد"],
 ["", "", ""],
 ["", "", ""],
 ];
