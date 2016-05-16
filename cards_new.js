@@ -534,7 +534,7 @@ CARDS = [
 ["To Avoid", "Khoddaaree Kardan", "خودداری کردن"],
 ['(A) Type', ['Joor', 'Gooneh'], ['جور', 'گونه']],
 ["To Some Extent / Somewhat", "Ghadree", "قدری"],
-["", "", ""],
+["Rest In Peace", "Khodaa Beeaamorzeh", "خدا بیامرزه"],
 ["", "", ""],
 ["", "", ""],
 ["", "", ""],
