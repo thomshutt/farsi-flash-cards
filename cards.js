@@ -1357,6 +1357,10 @@ CARDS = [
 ['Narrow / Slender', 'Baareek', 'باریک'],
 ['Fluff', 'Kork', 'کرک'],
 ['Nail (Hammer)', 'Meekh', 'میخ'],
+['I Am Cooking', 'Meepazam', 'می پزم'],
+['I Cooked', 'Pokhtam', 'پختم'],
+["To Pick Up / Take", "Bardaashtan", "برداشتن"],
+["Do You Want To Die?", "Az Joonet Seer Shodee?", "از جونت سیر شدی؟"],
 ];
 
 //  ['', '', ''],
