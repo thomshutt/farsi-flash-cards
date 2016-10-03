@@ -1385,6 +1385,19 @@ CARDS = [
 ['Abuse', 'Aazaar', 'آزار'],
 ["A Couple (Romantic)", "Zoj", "زوج"],
 ['Dot / Point', 'Noghteh', 'نقطه'],
+["To Force", "Majboor Kardan", "مجبور کردن"],
+['Software', "Narm Afzaar", "نرم افزار"],
+["Ginger", "Zanjebeel", "زنجبیل"],
+['Percentage', 'Dar Sad', 'در صد'],
+['Minority', 'Aghal-leeat', 'اقلیت'],
+["Policeman", "Paasbaan", "پاسبان"],
+['Cheery', 'Delgoshaa', 'دلگشا'],
+['Official (Thing)', 'Rasmee', 'رسمی'],
+['Masterpiece', 'Shaahkaar', 'شاهکار'],
+['Faint', 'Ghash', 'غش'],
+['French Fries', 'Seebzameenee Sorkh', 'سیب زمینی سرخ'],
+['Silver', 'Noghreh', 'نقره'],
+
 ];
 
 //  ['', '', ''],
