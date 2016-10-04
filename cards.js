@@ -1295,7 +1295,6 @@ CARDS = [
 ['Caution', 'Ehteeaat', 'احتیاط'],
 ["Funeral", "Maraasem-e Khatm", "مراسم ختم"],
 ['Useless', 'Beefaaydeh', 'بیفایده'],
-['Mind your own business!', 'Boro pee kaaret', 'برو پی کارت'],
 ['Reluctantly', 'Baa Ekraah', 'با اکراه'],
 ['Rumbling (Stomach)', 'Ghaar O Ghoor', 'غار و غور'],
 ['Algae', 'Jolbak', 'جلبک'],
@@ -1397,7 +1396,11 @@ CARDS = [
 ['Faint', 'Ghash', 'غش'],
 ['French Fries', 'Seebzameenee Sorkh', 'سیب زمینی سرخ'],
 ['Silver', 'Noghreh', 'نقره'],
-
+['Difficult', 'Doshvaar', 'دشوار'],
+["It Was A Piece Of Cake", "Mesleh Aab Khordan Bood", "مسئله آب خوردن بود"],
+["To Memorise", "Hefz Kardan", "حفظ کردن"],
+['Greatness', 'Azamat', 'عظمت'],
+['Ancient', 'Baastaan', 'باستان'],
 ];
 
 //  ['', '', ''],
