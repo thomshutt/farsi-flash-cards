@@ -1,4 +1,5 @@
 CARDS = [
+['Parasite / Freeloader', 'Freeloader', 'مفتخور'],
 ['Embassy', 'Sefaarat', 'سفارت'],
 ["Familiar", "Aashenaa", "آشنا"],
 ['To Dare', 'Joraat Kardan', 'جرات کردن'],
