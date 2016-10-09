@@ -1,4 +1,12 @@
 CARDS = [
+["Habit", "Aadat", "عادت"],
+["As Bad As", "Beh Badee", "به بدی"],
+["Pearl", "Morvaareed", "مروارید"],
+["At Least", "Dast-e Kam", "دست کم"],
+["Disposable", "Yekbaar Masraf", "یکبار مصرف"],
+["Each / Individually", "Tak Tak", "تک تک"],
+["Matchstick", "Kebreet", "کبریت"],
+["To Pretend", "Vaanemood Kardan", "وانمود کردن"],
 ['Parasite / Freeloader', 'Freeloader', 'مفتخور'],
 ['Embassy', 'Sefaarat', 'سفارت'],
 ["Familiar", "Aashenaa", "آشنا"],
@@ -501,8 +509,6 @@ CARDS = [
 ["(A) Promise", "Paymaan", "پیمان"],
 ["", "", ""],
 ["", "", ""],
-["", "", ""],
 ];
 
-// ['Fate',           'Ghesmat',        'قسمت'],
 // ["", "", ""],
