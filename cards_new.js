@@ -1,4 +1,5 @@
 CARDS = [
+["Nervous / Neurotic", "Asabee", "عصبی"],
 ["Habit", "Aadat", "عادت"],
 ["As Bad As", "Beh Badee", "به بدی"],
 ["Pearl", "Morvaareed", "مروارید"],
@@ -403,7 +404,6 @@ CARDS = [
 ["(An) Exhibition", "Nemaayeshgaah", "نمایشگاه"],
 ["With Pleasure / Happy To", "Baa Kamaal-e Meyl", "با کمال میل"],
 ["Hide & Seek", "Ghaayem Baashak", "قایم باشک"],
-["Nervous / Neurotic", "Asabee", "عصبی"],
 ["To Take Leave (From Work)", "Morakhasee Gereftan", "مرخصی گرفتن"],
 ["Vampire", "Khoon Aashaam", "خون آشام"],
 ["To Trick (Someone)", "Kalak Zadan", "کلک زدن"],
