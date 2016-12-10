@@ -385,7 +385,6 @@ CARDS = [
 ['Animal',                      'Heyvaan',                   'حیوان'],
 ['Without',                     'Beeaanke',                  'بی آنکه'],
 ['Insect',                      'Saas',                      'ساس'],
-['Sam',                         'Poison',                    'سم'],
 ['Bride',                       'Aroos',                     'عروس'],
 ['Rooster',                     'Khoroos',                   'خروس'],
 [['(A) Groom', 'Son In Law'],   'Daamaad',                   'داماد'],
