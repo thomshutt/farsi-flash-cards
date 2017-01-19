@@ -325,7 +325,6 @@ CARDS = [
 ['Wise',                        'Aalem',                     'عالم'],
 ['Philosopher',                 'Feelsoof',                  'فیلسوف'],
 ['Only',                        'Faghat',                    'فقط'],
-['Fake',                        'Alakee',                    'الکی'],
 ['Wicked',                      'Badjens',                   'بدجنس'],
 ['In this way',                 'Eentoori',                  'اینطوری'],
 ['Tomato',                      'Gojeh Farangi',             'گوجه فرنگی'],
@@ -1062,8 +1061,6 @@ CARDS = [
 ['Sailing Boat', 'Ghaayegh-e Baadbaanee', 'قایقِ بادبانی'],
 ['Adventurous', 'Por Maajaraa', 'پرماجرا'],
 ['Companion', ['Hamsafar', 'Hamraah'], ['همسفر', 'همراه']],
-['Crocodile', 'Temsaah', 'تمساح'],
-['Port (Sea)', 'Bandar', 'بندر'],
 ['Also', 'Hamcheneen', 'همچنین'],
 ['Portugal', 'Porteghaal', 'پرتغال'],
 ['Orange (Fruit)', 'Portaghaal', 'پرتقال'],
@@ -1072,7 +1069,6 @@ CARDS = [
 ['Have Fun', 'Khosh Begzareh', 'خوش بگذره'],
 ['Say Hi To Your Father', 'Beh Pedaretaan Salaam Beresaaneed', 'به پدرتان سلام برسانید'],
 
-['To Travel A Distance', 'Tey Kardan', 'طی کردن'],
 ['To Pass (By / Through) (Challenging)', 'Oboor Kardan', 'عبور کردن'],
 ['To Start Moving (Somewhere)', 'Harekat Kardan', 'حرکت کردن'],
 
@@ -1422,6 +1418,15 @@ CARDS = [
 ['Radiator', 'Shofaazh', 'شوفاژ'],
 ['With Your Permission', 'Baa Ejaazeyeh Shomaa', 'با اجازه ی شما'],
 ['(A) Wound', 'Zakhm', 'زخم'],
+["Nightmare", "Kaaboos", "کابوس"],
+[['Tradition', 'Ceremony'], 'Rasm', 'رسم'],
+[['Traditions', 'Ceremonies'], 'Rosoom', 'رسوم'],
+['I Am Shaving', 'Reesham Eslaah Mikonam', 'ریشم اصلاح می کنم'],
+['Thin', 'Naazak', 'نازک'],
+['To Weave', 'Baaftan', 'بافتن'],
+['Middle', 'Vasat', 'وسط'],
+['Shame', ['Sharm', 'Khejaalat'], ['شرم', 'خجالت']],
+['Corner', 'Goosheh', 'گوشه'],
 ];
 
 //  ['', '', ''],
