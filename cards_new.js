@@ -1,6 +1,7 @@
 CARDS = [
 ["To Vote", "Raay Daadan", "رای دادن"],
 ["Nuts", "Aajeel", "آجیل"],
+["Diamond", "Almaas", "الماس"],
 ["(A) Part", "Bakhsh", "بخش"],
 ["Fuel", "Sookht", "سوخت"],
 ["(A) Visa", "Ravaadeed", "روادید"],
