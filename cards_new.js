@@ -1,4 +1,6 @@
 CARDS = [
+["Inadvertently", "Gheeraamadaaneh", "غیرعامدانه"],
+["Deliberately (On Purpose)", "Aamadaaneh", "عامدانه"],
 ["(The) East", "Khaavar", "خاور"],
 ['Word', ['Vaazheh', 'Kalameh'], ['واژه', 'کلمه']],
 ["Sorrow", "Gham", "غم"],
