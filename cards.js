@@ -1117,7 +1117,6 @@ CARDS = [
 ['Dragonfly', 'Sanjaaghak', 'سنجاقک'],
 ['Too', 'Neez', 'نیز'],
 ['Daffodil', 'Narges', 'نرگس'],
-['If You Don\'t Want To Be Shamed, Become The Colour Of Society', 'Khaahee Nashavee Rasvaa, Hamrang-e Jamaa-at Sho', 'خواهی نشوی رسوا همرنگ جماعت شو '],
 ['Severe', 'Shadeed', 'شدید'],
 ['Martyr', 'Shaheed', 'شهید'],
 ['Interview', 'Mosaahebeh', 'مصاحبه'],
@@ -1425,6 +1424,13 @@ CARDS = [
 ['Middle', 'Vasat', 'وسط'],
 ['Shame', ['Sharm', 'Khejaalat'], ['شرم', 'خجالت']],
 ['Corner', 'Goosheh', 'گوشه'],
+["(A) Part", "Bakhsh", "بخش"],
+["Fuel", "Sookht", "سوخت"],
+["Tent", "Chaador", "چادر"],
+["Opium", "Tareeaak", "تریاک"],
+["Greece", "Yoonaan", "یونان"],
+["As Bad As", "Beh Badee", "به بدی"],
+['Parasite / Freeloader', 'Moftkhoor', 'مفتخور'],
 ];
 
 //  ['', '', ''],
