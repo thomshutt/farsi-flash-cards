@@ -1472,6 +1472,14 @@ CARDS = [
 ["Disposable", "Yekbaar Masraf", "یکبار مصرف"],
 ["Poisonous", "Zahr Aalood", "زهر آلود"],
 ["Whatever", "Aancheh", "آنچه"],
+["To Settle Down", "Jaa Aaftaadan", "جا افتادن"],
+["Familiar", "Aashenaa", "آشنا"],
+['Corridor', 'Raahro', 'راهرو'],
+["Disgusting", "Chendesh Aavar", "چندش آور"],
+["Pill", "Ghors", "قرص"],
+["Wrist", "Moch", "مچ"],
+["Diamond", "Almaas", "الماس"],
+["(An) Excuse", "Bahaaneh", "بهانه"],
 ];
 
 //  ['', '', ''],
