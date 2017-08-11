@@ -1,4 +1,5 @@
 CARDS = [
+["Cardamom", "Hel", "هل"],
 ['Certificate / Document', ['Sanad', 'Gavaahee'], ['سند', 'گواهی']],
 ["Quarter (Time)", "Robh", "ربع"],
 ["Unknown", "Nashnaakhteh", "ناشناخته"],
