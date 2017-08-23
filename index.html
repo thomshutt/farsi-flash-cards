@@ -64,7 +64,7 @@
       }
 
       STATE = 'QUESTION'; 
-      CURRENT_CARD = getOrderedCardIndex(); 
+      CURRENT_CARD = getRandomCardIndex(); 
       var startLanguage = chooseStartLanguage();
       $$('question1').innerHTML = getAnyPossibleValue(CARDS[CURRENT_CARD][startLanguage]); 
     }
@@ -158,14 +158,15 @@
     }; 
 
     var getRandomCardIndex = function getRandomCardIndex() {
-      return randomDistribution[Math.floor(Math.random() * randomDistribution.length)];
+      // return randomDistribution[Math.floor(Math.random() * randomDistribution.length)];
+      return randomDistribution[Math.floor(Math.random() * 50)];
     };
 
     var currentIndex = -1;
     var getOrderedCardIndex = function getOrderedCardIndex() {
       currentIndex++;
       // currentIndex = currentIndex % CARDS.length;
-      currentIndex = currentIndex % 35;
+      currentIndex = currentIndex % 50;
       return currentIndex;
     };
 
